@@ -165,7 +165,7 @@
 		<Metadata name="CommonModule.PAPI_РаботаСВходящимиСообщениями" id="abc0dca0-6516-4391-8d1a-c000fd7b2e2e" configVersion="6b38a0581de248dc37ee32545a5d11adad4f16dc"/>
 		<Metadata name="CommonModule.PAPI_РаботаСВходящимиСообщениями.Module" id="abc0dca0-6516-4391-8d1a-c000fd7b2e2e.0" configVersion="c3eef1662eaf5dee3346b55d108a4ebeace0b386"/>
 		<Metadata name="CommonModule.PAPI_РаботаСМетодами" id="48136b4a-ad26-481c-8c6f-782dac64c8df" configVersion="4ef4512fd6ca3b055c4d456ed7af873b5884dffa"/>
-		<Metadata name="CommonModule.PAPI_РаботаСМетодами.Module" id="48136b4a-ad26-481c-8c6f-782dac64c8df.0" configVersion="db0948d612c89bc2a397b3bc3ba6f48d8c6df73c"/>
+		<Metadata name="CommonModule.PAPI_РаботаСМетодами.Module" id="48136b4a-ad26-481c-8c6f-782dac64c8df.0" configVersion="796d2218fa14ab5df84d10d3bd19b822a1e57436"/>
 		<Metadata name="CommonModule.PAPI_РаботаСОтветом" id="b00e7573-c79a-4499-b011-82e9166b3923" configVersion="4cabe7648ddb9aebeaa1e1b6bce2f5cbae17b2ad"/>
 		<Metadata name="CommonModule.PAPI_РаботаСОтветом.Module" id="b00e7573-c79a-4499-b011-82e9166b3923.0" configVersion="65b4a61fb7fd342bbf3408e7ee7247377e07abff"/>
 		<Metadata name="CommonModule.PAPI_СервисыИнтеграции" id="513d4ef9-0ebb-485c-ba7d-cbb00494d83e" configVersion="adac3263ee43a96146db32cada4ce62214f8f7dd"/>
