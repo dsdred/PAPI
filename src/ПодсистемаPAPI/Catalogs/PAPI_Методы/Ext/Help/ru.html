@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size:8.5pt;line-height:107%;font-family:
+&quot;Verdana&quot;,sans-serif">Справочник Методы (PAPI_Методы)<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size:8.5pt;line-height:107%;font-family:
+&quot;Verdana&quot;,sans-serif">Позволяет описать метод, параметры вызова, алгоритм
+решения и формат ответа. <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Реквизиты:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Разрешен</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Разрешает выполнение метода, в
+отличии от алгоритма проверяется до функции выполнения, данная особенность
+позволяет тестировать запрещенные методы. Если метод запрещен значение
+реквизита ложь. При запрете выдаст ошибку с кодом "Err4", См.
+Справочник.PAPI_Сообщения.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ВерсияМетода</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Строка (9) – используется в шаблоне обращения к
+методу, по умолчанию </span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">V</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">1. Шаблон = /{<b><span style="font-style: italic; font-style: italic; ">ВерсияМетода</span></b>}/{ИмяМетода}<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ИмяМетода</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Строка (150) – Ключ поиска метода.
+Используется в шаблоне. Шаблон = /{ВерсияМетода}/{<b><span style="font-style: italic; font-style: italic; ">ИмяМетода</span></b>}<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Комментарий</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Строка – Информация по методу.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ЛогироватьЗапрос</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Указывает на необходимость записи данных
+запроса в документ PAPI_ВходящийЗапрос.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ЛогироватьМетод</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Указывает на необходимость записи лога в
+регистр сведений PAPI_ЛогМетодов.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Привилегированный</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Признак запуска метода в
+привилегированном режиме.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Настройки</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – ХранилищеЗначенией – Содержит структуру метода,
+состоящую из кода произвольного алгоритма, кода для обработки тела запроса и
+параметров запроса.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ПроизвольныйАлгоритм</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Указывает на то, как метод должен
+выполняться. Выполняется либо алгоритм, либо произвольный код.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Алгоритм</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Справочник.PAPI_Алгоритмы- Если
+ПроизвольныйАлгоритм = Ложь, тогда метод работает по указанному алгоритму.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Стандартный</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево - Метод создан PAPI.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ТелоЗапроса</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> - Перечисление.PAPI_ТелоЗапроса – Тип данных в теле
+запроса (Строка, ДвоичныеДанные, Поток).<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ТелоОтвета</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> - Перечисление.</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">PAPI</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">_ТелоОтвета – Тип данных в теле ответа.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Табличные</span></b><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> </span></b><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">части</span></b><b><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">:<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">            <b>HTTP</b></span><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Методы</span></b><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – </span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">содержит</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> </span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">разрешенные</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> </span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">методы</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> (GET, POST, HEAD, PUT,
+DELETE, PATCH, MERGE, OPTIONS, TRACE, CONNECT).<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">            </span><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ЗаголовкиОтвета</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – содержит заголовки ответа.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><a name="_Hlk167495306"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Пример
+</span></b></a><b><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">URL</span></b><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">http</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">[</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">s</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">]://</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">host</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">/{</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">base</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">}/</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">hs</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">/</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">papi</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">/{</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">MethodVersion</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">}/{</span><span lang="EN-US" style="font-size: 8.5pt; font-family: Verdana, sans-serif;">MethodName</span><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">}<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> </span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> </span></p>
+<p class="MsoNormal">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><o:p> </o:p></p>
+
+
+</body></html>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<LabelField name="ВидИзменения" id="22">
+					<DataPath>Запись.ВидИзменения</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<TextColor>#000080</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<ContextMenu name="ВидИзмененияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ВидИзмененияРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<InputField name="ДатаЧтения" id="28">
+					<DataPath>Запись.ДатаЧтения</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаЧтенияКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ДатаЧтенияРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<CheckBoxField name="ДанныеПрочитаны" id="25">
+					<DataPath>Запись.ДанныеПрочитаны</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочитано</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДанныеПрочитаныКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ДанныеПрочитаныРасширеннаяПодсказка" id="27"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаСтраницы" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<Page name="СтраницаСвойства" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойства</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаСвойстваРасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<InputField name="ИдентификаторСообщения" id="52">
+							<DataPath>ИдентификаторСообщения</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ИдентификаторСообщенияКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ИдентификаторСообщенияРасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<InputField name="ИдентификаторЗапроса" id="55">
+							<DataPath>ИдентификаторЗапроса</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ИдентификаторЗапросаКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ИдентификаторЗапросаРасширеннаяПодсказка" id="57"/>
+						</InputField>
+						<InputField name="КодОтправителя" id="1">
+							<DataPath>Запись.КодОтправителя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отправитель</v8:content>
+								</v8:item>
+							</Title>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КодОтправителяКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодОтправителяРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<UsualGroup name="ГруппаДаты" id="42">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа даты</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДатыРасширеннаяПодсказка" id="43"/>
+							<ChildItems>
+								<InputField name="ДатаОтправки" id="7">
+									<DataPath>Запись.ДатаОтправки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отправка</v8:content>
+										</v8:item>
+									</Title>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДатаОтправкиКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ДатаОтправкиРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<InputField name="ДатаУстаревания" id="4">
+									<DataPath>Запись.ДатаУстаревания</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Устаревание</v8:content>
+										</v8:item>
+									</Title>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДатаУстареванияКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="ДатаУстареванияРасширеннаяПодсказка" id="6"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПараметры" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаПараметрыРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельПараметры" id="63">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель параметры</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КоманднаяПанельПараметрыРасширеннаяПодсказка" id="64"/>
+							<ChildItems>
+								<Button name="ОткрытьОбъект" id="65">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ОткрытьОбъект</CommandName>
+									<ExtendedTooltip name="ОткрытьОбъектРасширеннаяПодсказка" id="66"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<InputField name="ТипСообщения" id="10">
+							<DataPath>Запись.ТипСообщения</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипСообщенияКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ТипСообщенияРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ТипОбъекта" id="13">
+							<DataPath>Запись.ТипОбъекта</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипОбъектаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ТипОбъектаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ИдОбъекта" id="16">
+							<DataPath>Запись.ИдОбъекта</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИдОбъектаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ИдОбъектаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="Представление" id="19">
+							<DataPath>Запись.Представление</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПредставлениеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ПредставлениеРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОписаниеОшибки" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаОписаниеОшибкиРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<InputField name="ТекстОшибки" id="31">
+							<DataPath>Запись.ТекстОшибки</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="33"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаТело" id="58">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тело</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаТелоРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<InputField name="ТелоСообщения" id="60">
+							<DataPath>ТелоСообщения</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ТелоСообщенияКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ТелоСообщенияРасширеннаяПодсказка" id="62"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.PAPI_ВходящиеСообщенияСервисаИнтеграции</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ИдентификаторСообщения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторЗапроса" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор запроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТелоСообщения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тело сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОткрытьОбъект" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть объект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть объект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОткрытьОбъект</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

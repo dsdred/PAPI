@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Справочник Алгоритмы
+(Справочник.PAPI_Алгоритмы)</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Позволяет решать алгоритмы. Алгоритм
+может содержать параметры. Параметр может быть предопределенным и вычисляемым.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Реквизиты:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Разрешен</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Разрешает выполнение алгоритма. Если
+алгоритм запрещен значение реквизита ложь. При запрете выдаст ошибку с кодом
+"ALErr1", См. Справочник.PAPI_Сообщения.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ИмяАлгоритма</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Строка (200) – Ключ поиска алгоритма.
+Используется программистами.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Комментарий</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Строка – Информация по алгоритму.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Логировать</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Указывает на необходимость записи в
+регистр сведений PAPI_ЛогАлгоритмов.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Привилегированный</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – Булево – Признак запуска алгоритма в
+привилегированном режиме.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Настройки</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> – ХранилищеЗначенией – Содержит структуру
+алгоритма, состоящую из кода алгоритма и параметров алгоритма.<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Пример программного вызова:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ПараметрыАлгоритма = Новый Структура;<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ПараметрыАлгоритма.Вставить("ПараметрЧисло", 13);<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">СтруктураВозврата = PAPI_РаботаСАлгоритмами.РешитьАлгоритм(Алгоритм, ПараметрыАлгоритма);<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Если СтруктураВозврата.Отработал Тогда <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Результат = СтруктураВозврата.Результат;<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Иначе<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Сообщить(СтруктураВозврата.ТекстОшибки);<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">КонецЕсли;<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Пример обращения к параметру:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Результат
+= ПараметрыАлгоритма.ИмяПараметра;<o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Пример Алгоритма:</span></b><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">ПятьМинут = 60 * 5;<o:p></o:p></span></p>
+<p class="MsoNormal">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+<p class="MsoNormal" style="-webkit-margin-before: 1em; -webkit-margin-after: 1em; margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 8.5pt; font-family: Verdana, sans-serif;">Результат = ТекущаяДатаСеанса() +
+ПятьМинут;<o:p></o:p></span></p></body></html>

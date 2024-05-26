@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<LabelDecoration name="ДекорацияБазаИсточник" id="16">
+			<Width>55</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>#333399</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение отправителя подставляемое в исходящих сообщениях</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияБазаИсточникКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДекорацияБазаИсточникРасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
+		<InputField name="PAPI_Источник" id="1">
+			<DataPath>НаборКонстант.PAPI_Источник</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>База-источник</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Left</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="PAPI_ИсточникКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="PAPI_ИсточникРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">PAPI_ИсточникПриИзменении</Event>
+			</Events>
+		</InputField>
+		<LabelDecoration name="ДекорацияСервисыИнтеграцииВключены" id="13">
+			<Width>55</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>#333399</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>При выключении отключает регламент "PAPI_СервисыИнтеграцииВыполнитьОбработку" и PAPI_СервисыИнтеграции.ВыполнитьОбработкуНаСервере()</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияСервисыИнтеграцииВключеныКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДекорацияСервисыИнтеграцииВключеныРасширеннаяПодсказка" id="15"/>
+		</LabelDecoration>
+		<CheckBoxField name="PAPI_ОбменыСервисовИнтеграцииВключены" id="4">
+			<DataPath>НаборКонстант.PAPI_ОбменыСервисовИнтеграцииВключены</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмены включены</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="PAPI_ОбменыСервисовИнтеграцииВключеныКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="PAPI_ОбменыСервисовИнтеграцииВключеныРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">PAPI_ОбменыВключеныПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<LabelDecoration name="ДекорацияЛогСообщений" id="10">
+			<Width>55</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>#333399</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логировать все входящие сообщения. Если логирование выключено будут сохранятся только непрочитанные сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияЛогСообщенийКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДекорацияЛогСообщенийРасширеннаяПодсказка" id="12"/>
+		</LabelDecoration>
+		<CheckBoxField name="PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции" id="7">
+			<DataPath>НаборКонстант.PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логировать сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграцииКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграцииРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграцииПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<LabelDecoration name="ДекорацияДатаЗапретаОбменаДокументов" id="22">
+			<Width>55</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>#333399</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если проверяемая дата меньше указанной проверка вернет ложь. Код проверки: PAPI_СлужебныеДляОбмена.ДатаЗапретаОбменаДокументов(ДатаДокумента)</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияДатаЗапретаОбменаДокументовКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ДекорацияДатаЗапретаОбменаДокументовРасширеннаяПодсказка" id="24"/>
+		</LabelDecoration>
+		<InputField name="PAPI_ДатаЗапретаОбменаДокументов" id="19">
+			<DataPath>НаборКонстант.PAPI_ДатаЗапретаОбменаДокументов</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата запрета обмена</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="PAPI_ДатаЗапретаОбменаДокументовКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="PAPI_ДатаЗапретаОбменаДокументовРасширеннаяПодсказка" id="21"/>
+			<Events>
+				<Event name="OnChange">PAPI_ДатаЗапретаОбменаДокументовПриИзменении</Event>
+			</Events>
+		</InputField>
+		<LabelDecoration name="ДекорацияКоличествоПопытокОчередиДокументов" id="28">
+			<Width>55</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>#333399</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Максимальное допустимое число попыток отложенного действия с документом</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияКоличествоПопытокОчередиДокументовКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДекорацияКоличествоПопытокОчередиДокументовРасширеннаяПодсказка" id="30"/>
+		</LabelDecoration>
+		<InputField name="PAPI_КоличествоПопытокОчередиДокументов" id="25">
+			<DataPath>НаборКонстант.PAPI_КоличествоПопытокОчередиДокументов</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество попыток очереди документов</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="PAPI_КоличествоПопытокОчередиДокументовКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="PAPI_КоличествоПопытокОчередиДокументовРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">PAPI_КоличествоПопытокОчередиДокументовПриИзменении</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
