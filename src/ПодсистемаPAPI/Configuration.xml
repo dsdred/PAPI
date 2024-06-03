@@ -37,7 +37,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема PAPI, редакция 0.9.2.4</v8:content>
+					<v8:content>Подсистема PAPI, редакция 0.9.2.5</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Pretty API – Подсистема интеграционных инструментов.</Comment>
@@ -98,6 +98,7 @@
 			<Role>PAPI_Администратор</Role>
 			<Role>PAPI_БазовыеПрава</Role>
 			<Role>PAPI_ПодсистемаPAPI</Role>
+			<Role>PAPI_Оператор</Role>
 			<CommonModule>PAPI</CommonModule>
 			<CommonModule>PAPI_АсинхронныеОперации</CommonModule>
 			<CommonModule>PAPI_ДанныеДляЗаполненияНастроек</CommonModule>

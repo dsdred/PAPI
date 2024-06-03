@@ -183,7 +183,7 @@
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.PAPI_ВходящийЗапрос.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Document.PAPI_ВходящийЗапрос.Form.ФормаВыбора</DefaultChoiceForm>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
@@ -434,6 +434,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
