@@ -136,20 +136,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_HTTP.Subsystem.PAPI_Методы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_Каналы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.PAPI.Subsystem.PAPI_Шина</name>
 		<right>
 			<name>View</name>
@@ -285,13 +271,6 @@
 		</right>
 		<right>
 			<name>Output</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_Алгоритмы</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -19,7 +19,7 @@
 					<v8:content>PAPI: Настройка состава истории данных</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Настройка состава истории данных V2024.05.07</Comment>
+			<Comment>Настройка состава истории данных V2024.08.25</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
@@ -39,6 +39,8 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Form>ВыборПроизвольнойДаты</Form>
+			<Form>ФормаПрогресса</Form>
 			<Command uuid="0b4d8f5f-59cb-4f1b-86de-f0d39773b1c7">
 				<Properties>
 					<Name>НастройкаСоставаИД</Name>

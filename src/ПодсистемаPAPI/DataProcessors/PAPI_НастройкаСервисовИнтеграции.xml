@@ -19,7 +19,7 @@
 					<v8:content>PAPI: Настройка сервисов интеграции</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Настройка сервисов интеграции V2024.05.07</Comment>
+			<Comment>Настройка сервисов интеграции V2024.08.25</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>DataProcessor.PAPI_НастройкаСервисовИнтеграции.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>

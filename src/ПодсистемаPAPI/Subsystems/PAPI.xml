@@ -52,6 +52,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_ОбменыСервисовИнтеграцииВключены</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.PAPI_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.PAPI_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_Оператор</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

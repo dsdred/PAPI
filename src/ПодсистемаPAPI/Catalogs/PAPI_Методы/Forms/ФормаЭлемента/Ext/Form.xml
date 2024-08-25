@@ -38,60 +38,6 @@
 					</Title>
 					<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="95"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаДопПараметры" id="219">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Доп параметры</v8:content>
-								</v8:item>
-							</Title>
-							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаДопПараметрыРасширеннаяПодсказка" id="220"/>
-							<ChildItems>
-								<CheckBoxField name="Разрешен" id="16">
-									<DataPath>Объект.Разрешен</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="РазрешенКонтекстноеМеню" id="17"/>
-									<ExtendedTooltip name="РазрешенРасширеннаяПодсказка" id="18"/>
-								</CheckBoxField>
-								<CheckBoxField name="Привилегированный" id="227">
-									<DataPath>Объект.Привилегированный</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ПривилегированныйКонтекстноеМеню" id="228"/>
-									<ExtendedTooltip name="ПривилегированныйРасширеннаяПодсказка" id="229"/>
-								</CheckBoxField>
-								<CheckBoxField name="ЛогироватьЗапрос" id="202">
-									<DataPath>Объект.ЛогироватьЗапрос</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Входящий запрос</v8:content>
-										</v8:item>
-									</Title>
-									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ЛогироватьЗапросКонтекстноеМеню" id="203"/>
-									<ExtendedTooltip name="ЛогироватьЗапросРасширеннаяПодсказка" id="204"/>
-								</CheckBoxField>
-								<CheckBoxField name="ЛогироватьМетод" id="216">
-									<DataPath>Объект.ЛогироватьМетод</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Логировать</v8:content>
-										</v8:item>
-									</Title>
-									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ЛогироватьМетодКонтекстноеМеню" id="217"/>
-									<ExtendedTooltip name="ЛогироватьМетодРасширеннаяПодсказка" id="218"/>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
 						<UsualGroup name="ГруппаКодНаименованиеВерсия" id="90">
 							<Title>
 								<v8:item>
@@ -164,6 +110,92 @@
 									<ContextMenu name="РодительКонтекстноеМеню" id="214"/>
 									<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="215"/>
 								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДопПараметры" id="219">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Доп параметры</v8:content>
+								</v8:item>
+							</Title>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДопПараметрыРасширеннаяПодсказка" id="220"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаРазрешения" id="250">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разрешения</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаРазрешенияРасширеннаяПодсказка" id="251"/>
+									<ChildItems>
+										<CheckBoxField name="Разрешен" id="16">
+											<DataPath>Объект.Разрешен</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>CheckBox</CheckBoxType>
+											<ContextMenu name="РазрешенКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="РазрешенРасширеннаяПодсказка" id="18"/>
+										</CheckBoxField>
+										<CheckBoxField name="Привилегированный" id="227">
+											<DataPath>Объект.Привилегированный</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>CheckBox</CheckBoxType>
+											<ContextMenu name="ПривилегированныйКонтекстноеМеню" id="228"/>
+											<ExtendedTooltip name="ПривилегированныйРасширеннаяПодсказка" id="229"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЛогирование" id="252">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Логирование</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЛогированиеРасширеннаяПодсказка" id="253"/>
+									<ChildItems>
+										<CheckBoxField name="ЛогироватьМетод" id="216">
+											<DataPath>Объект.ЛогироватьМетод</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Логировать</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<CheckBoxType>CheckBox</CheckBoxType>
+											<ContextMenu name="ЛогироватьМетодКонтекстноеМеню" id="217"/>
+											<ExtendedTooltip name="ЛогироватьМетодРасширеннаяПодсказка" id="218"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЛогироватьЗапрос" id="202">
+											<DataPath>Объект.ЛогироватьЗапрос</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Входящий запрос</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<CheckBoxType>CheckBox</CheckBoxType>
+											<ContextMenu name="ЛогироватьЗапросКонтекстноеМеню" id="203"/>
+											<ExtendedTooltip name="ЛогироватьЗапросРасширеннаяПодсказка" id="204"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаДоступныеМетоды" id="117">
@@ -287,6 +319,7 @@
 						<InputField name="ТелоЗапроса" id="221">
 							<DataPath>Объект.ТелоЗапроса</DataPath>
 							<AutoMaxWidth>false</AutoMaxWidth>
+							<ChooseType>false</ChooseType>
 							<ContextMenu name="ТелоЗапросаКонтекстноеМеню" id="222"/>
 							<ExtendedTooltip name="ТелоЗапросаРасширеннаяПодсказка" id="223"/>
 						</InputField>

@@ -12,8 +12,8 @@
 			<Comment/>
 			<MethodName>CommonModule.PAPI_СервисыИнтеграции.ВыполнитьОбработкуНаСервере</MethodName>
 			<Description/>
-			<Key>PAPIСервисыИнтеграции.ВыполнитьОбработкуНаСервере</Key>
-			<Use>true</Use>
+			<Key/>
+			<Use>false</Use>
 			<Predefined>true</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>

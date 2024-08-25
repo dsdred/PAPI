@@ -12,8 +12,8 @@
 			<Comment/>
 			<MethodName>CommonModule.PAPI_ИсторияДанных.ОбновитьИсториюНаСервере</MethodName>
 			<Description/>
-			<Key>PAPIИсторияДанных.ОбновитьИсториюНаСервере</Key>
-			<Use>true</Use>
+			<Key/>
+			<Use>false</Use>
 			<Predefined>true</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>

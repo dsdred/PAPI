@@ -317,24 +317,14 @@
 					<v8:content>Внешняя обработка</v8:content>
 				</v8:item>
 			</ObjectPresentation>
-			<ExtendedObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Внешняя обработка</v8:content>
-				</v8:item>
-			</ExtendedObjectPresentation>
+			<ExtendedObjectPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешнии обработки</v8:content>
 				</v8:item>
 			</ListPresentation>
-			<ExtendedListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Внешнии обработки</v8:content>
-				</v8:item>
-			</ExtendedListPresentation>
+			<ExtendedListPresentation/>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>

@@ -37,7 +37,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема PAPI, редакция 0.9.2.5</v8:content>
+					<v8:content>Подсистема PAPI, редакция 0.9.2.6</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Pretty API – Подсистема интеграционных инструментов.</Comment>
@@ -137,6 +137,7 @@
 			<ScheduledJob>PAPI_ИсторияДанныхВыполнитьОбработкуПослеЗаписиВерсий</ScheduledJob>
 			<ScheduledJob>PAPI_ИсторияДанныхОбновитьИсторию</ScheduledJob>
 			<ScheduledJob>PAPI_СервисыИнтеграцииВыполнитьОбработку</ScheduledJob>
+			<ScheduledJob>PAPI_ИсторияДанныхУдалитьВерсии</ScheduledJob>
 			<FunctionalOption>PAPI_ОбменыСервисовИнтеграцииВключены</FunctionalOption>
 			<FunctionalOption>PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции</FunctionalOption>
 			<CommonCommand>PAPI_Настройки</CommonCommand>
@@ -162,6 +163,7 @@
 			<Enum>PAPI_ТипВыполнения</Enum>
 			<Enum>PAPI_ТипЛога</Enum>
 			<Enum>PAPI_ТипПодпискиНаСобытие</Enum>
+			<Enum>PAPI_СрокиХранения</Enum>
 			<DataProcessor>PAPI_НастройкаСервисовИнтеграции</DataProcessor>
 			<DataProcessor>PAPI_НастройкаСоставаИсторииДанных</DataProcessor>
 			<DataProcessor>PAPI_ОтправкаСообщенияСервисовИнтеграции</DataProcessor>
@@ -175,6 +177,8 @@
 			<InformationRegister>PAPI_ОчередьАлгоритмовДляФоновогоВыполнения</InformationRegister>
 			<InformationRegister>PAPI_ОчередьДействийСДокументами</InformationRegister>
 			<InformationRegister>PAPI_ХранилищеРезультатов</InformationRegister>
+			<InformationRegister>PAPI_ОшибкиОбработкиПослеЗаписиВерсий</InformationRegister>
+			<InformationRegister>PAPI_НастройкиХраненияИстории</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

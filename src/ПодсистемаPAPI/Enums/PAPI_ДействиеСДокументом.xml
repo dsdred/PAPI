@@ -43,6 +43,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="18bbd3ae-d32c-40dc-bdb9-76ad5b99aa70">
+				<Properties>
+					<Name>Запись</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запись</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="2bd1a892-02da-4230-bd3d-4ff267d386b2">
 				<Properties>
 					<Name>ОтменаПроведения</Name>
@@ -79,13 +91,25 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="18bbd3ae-d32c-40dc-bdb9-76ad5b99aa70">
+			<EnumValue uuid="917369cb-c55f-4bcc-a3d8-d0d02dcbb16d">
 				<Properties>
-					<Name>Запись</Name>
+					<Name>СнятьПометкуУдаления</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Запись</v8:content>
+							<v8:content>Снять пометку удаления</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="70db835f-8465-4af2-9ef3-b6ac5d457c44">
+				<Properties>
+					<Name>УстановитьПометкуУдаления</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить пометку удаления</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

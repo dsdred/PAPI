@@ -22,6 +22,18 @@
 					</Title>
 					<ExtendedTooltip name="СтраницаОсновнаяРасширеннаяПодсказка" id="27"/>
 					<ChildItems>
+						<InputField name="ДатаИзменения" id="30">
+							<DataPath>Запись.ДатаИзменения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаИзмененияКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ДатаИзмененияРасширеннаяПодсказка" id="32"/>
+						</InputField>
 						<InputField name="ТипОбъекта" id="1">
 							<DataPath>Запись.ТипОбъекта</DataPath>
 							<AutoMaxWidth>false</AutoMaxWidth>

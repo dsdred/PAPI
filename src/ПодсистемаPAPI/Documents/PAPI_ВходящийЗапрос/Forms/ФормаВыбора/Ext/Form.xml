@@ -98,15 +98,32 @@
 					<ContextMenu name="ЗапросКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ЗапросРасширеннаяПодсказка" id="30"/>
 				</LabelField>
+				<LabelField name="Ссылка" id="31">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="33"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список документов</v8:content>
+				</v8:item>
+			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.Ref</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

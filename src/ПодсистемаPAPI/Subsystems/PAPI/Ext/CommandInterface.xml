@@ -16,6 +16,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.PAPI_ДатаЗапретаОбменаДокументов.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -69,6 +74,9 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.PAPI_ОтборыПолучателей.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

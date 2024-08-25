@@ -51,6 +51,8 @@
 									<v8:content>Группа код</v8:content>
 								</v8:item>
 							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<HorizontalAlign>Right</HorizontalAlign>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -63,8 +65,15 @@
 									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 								</InputField>
+								<LabelDecoration name="Разделитель1" id="83">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="Разделитель1КонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="Разделитель1РасширеннаяПодсказка" id="85"/>
+								</LabelDecoration>
 								<CheckBoxField name="Разрешен" id="7">
 									<DataPath>Объект.Разрешен</DataPath>
+									<TitleLocation>Right</TitleLocation>
 									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
@@ -73,12 +82,14 @@
 								</CheckBoxField>
 								<CheckBoxField name="Привилегированный" id="64">
 									<DataPath>Объект.Привилегированный</DataPath>
+									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПривилегированныйКонтекстноеМеню" id="65"/>
 									<ExtendedTooltip name="ПривилегированныйРасширеннаяПодсказка" id="66"/>
 								</CheckBoxField>
 								<CheckBoxField name="Логировать" id="61">
 									<DataPath>Объект.Логировать</DataPath>
+									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛогироватьКонтекстноеМеню" id="62"/>
 									<ExtendedTooltip name="ЛогироватьРасширеннаяПодсказка" id="63"/>

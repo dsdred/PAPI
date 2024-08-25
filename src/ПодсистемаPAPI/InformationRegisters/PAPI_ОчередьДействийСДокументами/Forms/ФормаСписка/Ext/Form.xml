@@ -171,6 +171,12 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<LabelField name="ДатаИзменения" id="75">
+					<DataPath>Список.ДатаИзменения</DataPath>
+					<Width>5</Width>
+					<ContextMenu name="ДатаИзмененияКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ДатаИзмененияРасширеннаяПодсказка" id="77"/>
+				</LabelField>
 				<ColumnGroup name="ГруппаОбъекта" id="37">
 					<Title>
 						<v8:item>
@@ -235,6 +241,7 @@
 								<LabelField name="КоличествоПопыток" id="34">
 									<DataPath>Список.КоличествоПопыток</DataPath>
 									<DefaultItem>true</DefaultItem>
+									<Width>5</Width>
 									<ContextMenu name="КоличествоПопытокКонтекстноеМеню" id="35"/>
 									<ExtendedTooltip name="КоличествоПопытокРасширеннаяПодсказка" id="36"/>
 								</LabelField>

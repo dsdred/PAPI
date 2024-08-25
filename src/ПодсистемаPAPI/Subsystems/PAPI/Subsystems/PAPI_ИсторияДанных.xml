@@ -25,6 +25,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.PAPI_НастройкаСоставаИсторииДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_ИсторияДанныхОбновитьИсторию</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_ИсторияДанныхВыполнитьОбработкуПослеЗаписиВерсий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_НастройкиХраненияИстории</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_СрокиХранения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_ИсторияДанныхУдалитьВерсии</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
