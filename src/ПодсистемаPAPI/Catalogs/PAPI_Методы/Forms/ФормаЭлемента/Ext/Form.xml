@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -469,10 +468,12 @@
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MultiLine>true</MultiLine>
 													<ExtendedEdit>true</ExtendedEdit>
+													<OpenButton>true</OpenButton>
 													<ContextMenu name="КодОбработкиТелаЗапросаКонтекстноеМеню" id="158"/>
 													<ExtendedTooltip name="КодОбработкиТелаЗапросаРасширеннаяПодсказка" id="159"/>
 													<Events>
 														<Event name="OnChange">КодВходящихДанныхПриИзменении</Event>
+														<Event name="Opening">КодОбработкиТелаЗапросаОткрытие</Event>
 													</Events>
 												</InputField>
 											</ChildItems>
@@ -557,15 +558,23 @@
 									<ChildItems>
 										<InputField name="КодПроизвольногоАлгоритма" id="162">
 											<DataPath>КодПроизвольногоАлгоритма</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Произвольный алгоритм вычисления</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MultiLine>true</MultiLine>
 											<ExtendedEdit>true</ExtendedEdit>
+											<OpenButton>true</OpenButton>
 											<ContextMenu name="КодПроизвольногоАлгоритмаКонтекстноеМеню" id="163"/>
 											<ExtendedTooltip name="КодПроизвольногоАлгоритмаРасширеннаяПодсказка" id="164"/>
 											<Events>
 												<Event name="OnChange">КодПроизвольногоАлгоритмаПриИзменении</Event>
+												<Event name="Opening">КодПроизвольногоАлгоритмаОткрытие</Event>
 											</Events>
 										</InputField>
 									</ChildItems>
@@ -739,6 +748,7 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 		<Attribute name="КодПроизвольногоАлгоритма" id="4">
 			<Title>
@@ -754,6 +764,7 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 		<Attribute name="ПараметрыЗапроса" id="5">
 			<Title>
