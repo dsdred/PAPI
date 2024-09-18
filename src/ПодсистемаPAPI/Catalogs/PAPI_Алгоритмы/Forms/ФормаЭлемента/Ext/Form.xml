@@ -6,7 +6,6 @@
 			<v8:content>Алгоритм</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -21,6 +20,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 	</Events>
@@ -227,6 +227,7 @@
 									</SearchControlAddition>
 									<Events>
 										<Event name="OnActivateRow">ПараметрыАлгоритмаПриАктивизацииСтроки</Event>
+										<Event name="OnChange">ПараметрыАлгоритмаПриИзменении</Event>
 									</Events>
 									<ChildItems>
 										<InputField name="ПараметрыАлгоритмаИмя" id="44">
