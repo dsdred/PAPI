@@ -115,7 +115,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За день</v8:content>
+							<v8:content>День</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -127,7 +127,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За неделю</v8:content>
+							<v8:content>Неделя</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -139,7 +139,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За месяц</v8:content>
+							<v8:content>Месяц</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -151,7 +151,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За три месяца</v8:content>
+							<v8:content>Три месяца</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -163,7 +163,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За шесть месяцев</v8:content>
+							<v8:content>Шесть месяцев</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -175,7 +175,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>За год</v8:content>
+							<v8:content>Год</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

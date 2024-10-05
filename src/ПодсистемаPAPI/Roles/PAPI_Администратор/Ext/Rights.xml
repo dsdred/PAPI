@@ -454,7 +454,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -544,6 +544,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ОчередьАлгоритмов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции</name>
 		<right>
 			<name>Read</name>
@@ -604,6 +611,13 @@
 	</object>
 	<object>
 		<name>DataProcessor.PAPI_НастройкаСервисовИнтеграции.Command.НастройкаСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1055,9 +1069,49 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_HTTP.Subsystem.PAPI_Методы</name>
+		<name>Constant.PAPI_НастройкаХраненияДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1065,13 +1119,6 @@
 		<name>HTTPService.PAPI.URLTemplate.PAPI.Method.ANY</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_Каналы</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1177,7 +1224,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_Шина</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных.Subsystem.PAPI_ОбработкаПослеЗаписиВерсий</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1308,7 +1355,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1487,14 +1534,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_ДополнительныеИнструменты</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_Инструменты</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ПодпискиНаСобытия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1667,7 +1714,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_HTTP</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_HTTP</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1744,7 +1791,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_Алгоритмы</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

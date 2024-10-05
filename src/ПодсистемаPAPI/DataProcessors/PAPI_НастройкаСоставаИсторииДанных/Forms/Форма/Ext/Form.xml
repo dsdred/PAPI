@@ -67,15 +67,9 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дерево метаданных</v8:content>
+							<v8:content>Дерево метаданных</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дерево метаданных</v8:content>
-						</v8:item>
-					</ToolTip>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -96,15 +90,9 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа фильтр дерева</v8:content>
+									<v8:content>Фильтр дерева</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа фильтр дерева</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаФильтрДереваРасширеннаяПодсказка" id="178"/>
@@ -126,7 +114,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Строка поиска по дереву методанных</v8:content>
+													<v8:content>Строка поиска по дереву метаданных</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>

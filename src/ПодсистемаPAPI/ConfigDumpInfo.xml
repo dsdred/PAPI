@@ -105,7 +105,7 @@
 		<Metadata name="Catalog.PAPI_Участники.Form.ФормаЭлемента" id="8cca88fc-7677-4cf7-9cdb-182c60feb76d" configVersion="0abdd02bc10b954bfe0debd5e2c333e6080288ae"/>
 		<Metadata name="Catalog.PAPI_Участники.Form.ФормаЭлемента.Form" id="8cca88fc-7677-4cf7-9cdb-182c60feb76d.0" configVersion="c6eac960c2e82b0a71bf95a0c4fbfb990fac3268"/>
 		<Metadata name="Catalog.PAPI_Участники.ManagerModule" id="554b93cb-9f10-4da3-99f7-2e3959d4ff60.3" configVersion="435d6a3019627882705d41d40e13f47afdd1b797"/>
-		<Metadata name="Catalog.PAPI_Участники.ObjectModule" id="554b93cb-9f10-4da3-99f7-2e3959d4ff60.0" configVersion="6365ea90776c1363e434013341cf53d220ea5962"/>
+		<Metadata name="Catalog.PAPI_Участники.ObjectModule" id="554b93cb-9f10-4da3-99f7-2e3959d4ff60.0" configVersion="6d2309da02849bb11d36a99629e8ae9039634f21"/>
 		<Metadata name="Catalog.PAPI_ЧтениеСообщений" id="56876f9d-4b3a-4fb7-b5ae-8be150519eee" configVersion="ad40529d07e8f335fbee458d40afd9be3e2a309c">
 			<Metadata name="Catalog.PAPI_ЧтениеСообщений.Attribute.Алгоритм" id="05e904e6-92d5-40ec-9634-d3dca57aff66"/>
 			<Metadata name="Catalog.PAPI_ЧтениеСообщений.Attribute.КаналОтвета" id="377042df-2aa4-4729-ac13-81e08cdac72b"/>
@@ -131,27 +131,29 @@
 		<Metadata name="Catalog.PAPI_ШаблоныСообщений.Form.ФормаЭлемента.Form" id="d00dd79e-2420-41d0-b6b0-9096e8c7b8a8.0" configVersion="ff2aa3eeb39a38953ce293a4aad26938fc2ea678"/>
 		<Metadata name="Catalog.PAPI_ШаблоныСообщений.Help" id="5b91e516-3e20-4ac2-9062-0734b537af1a.1" configVersion="ce28b76577d887b021bdaa39d7d694f89fca0b7d"/>
 		<Metadata name="Catalog.PAPI_ШаблоныСообщений.ManagerModule" id="5b91e516-3e20-4ac2-9062-0734b537af1a.3" configVersion="79f82f3531890112286dd22da1f5a66bdd94f2ad"/>
-		<Metadata name="Catalog.PAPI_ШаблоныСообщений.ObjectModule" id="5b91e516-3e20-4ac2-9062-0734b537af1a.0" configVersion="c1a11014b5e7a6a0b028b1c41c68e7b700d20581"/>
+		<Metadata name="Catalog.PAPI_ШаблоныСообщений.ObjectModule" id="5b91e516-3e20-4ac2-9062-0734b537af1a.0" configVersion="f5495d39858f8388807136f75ea5b49102944bde"/>
 		<Metadata name="Catalog.PAPI_ШаблоныСообщений.Template.СтандартныеСообщения" id="81c7f87a-ccf8-4de2-845c-88efadc6c62d" configVersion="c7b847399a3a0356c47ac96df639552231a276f3"/>
 		<Metadata name="Catalog.PAPI_ШаблоныСообщений.Template.СтандартныеСообщения.Template" id="81c7f87a-ccf8-4de2-845c-88efadc6c62d.0" configVersion="838aabc99ae9511ff55b7d19f13edec1a41b3016"/>
 		<Metadata name="CommonCommand.PAPI_Настройки" id="e01d5544-5e7c-4c01-9bc1-4e4a1d007e6c" configVersion="c5b4dc5de3a6d0b6e77a13a66d387a6c5a67dbfd"/>
-		<Metadata name="CommonCommand.PAPI_Настройки.CommandModule" id="e01d5544-5e7c-4c01-9bc1-4e4a1d007e6c.2" configVersion="5721a77edb3d3b0038119891024687712eeb5a6d"/>
+		<Metadata name="CommonCommand.PAPI_Настройки.CommandModule" id="e01d5544-5e7c-4c01-9bc1-4e4a1d007e6c.2" configVersion="13d85a06dc2e2a2307148dc30d8198cd99a87e5f"/>
 		<Metadata name="CommonForm.PAPI_Настройки" id="e43ff347-3c32-496d-96ba-1f68ddb1f486" configVersion="3cd3ae46a9cc24da6ceebf31352c2ffd76479226"/>
-		<Metadata name="CommonForm.PAPI_Настройки.Form" id="e43ff347-3c32-496d-96ba-1f68ddb1f486.0" configVersion="c46455d14f07e423b1b6ff8faf91687d3f596915"/>
+		<Metadata name="CommonForm.PAPI_Настройки.Form" id="e43ff347-3c32-496d-96ba-1f68ddb1f486.0" configVersion="d8fce2237480ef9db491d71f12e85ec31494ec7a"/>
 		<Metadata name="CommonModule.PAPI" id="c78af1c9-5854-46f2-9cbc-67bb0678f843" configVersion="47fa29ddb656f39cb9824df3c4137631ff930c9c"/>
 		<Metadata name="CommonModule.PAPI.Module" id="c78af1c9-5854-46f2-9cbc-67bb0678f843.0" configVersion="dd27152361f171dd5c8129608fd1a317df8304cf"/>
 		<Metadata name="CommonModule.PAPI_АсинхронныеОперации" id="22e9e2c6-9ddd-4a14-9a88-25bbc4e0f2e5" configVersion="4243f99efcf5c9ffb7a81be547ddce947b8f2464"/>
-		<Metadata name="CommonModule.PAPI_АсинхронныеОперации.Module" id="22e9e2c6-9ddd-4a14-9a88-25bbc4e0f2e5.0" configVersion="c9f0d2e9b03e6a06e8dde7d96e524628398d4ff9"/>
+		<Metadata name="CommonModule.PAPI_АсинхронныеОперации.Module" id="22e9e2c6-9ddd-4a14-9a88-25bbc4e0f2e5.0" configVersion="f963eb88c070515ed898a015d478395b99a3044a"/>
 		<Metadata name="CommonModule.PAPI_ДанныеДляЗаполненияНастроек" id="ff14d19c-2878-45d4-b9d9-7266069926ee" configVersion="c718d2a1714bf76006daa7632ca49c60c24d1e6f"/>
 		<Metadata name="CommonModule.PAPI_ДанныеДляЗаполненияНастроек.Module" id="ff14d19c-2878-45d4-b9d9-7266069926ee.0" configVersion="913c1566a198ff22202cb63d1cb9c675b074ddfb"/>
 		<Metadata name="CommonModule.PAPI_ИсторияДанных" id="9f385438-a7d9-4402-b182-c08803a22a4d" configVersion="ef40cb95f8bce21ba92a648deafec356a54d3240"/>
-		<Metadata name="CommonModule.PAPI_ИсторияДанных.Module" id="9f385438-a7d9-4402-b182-c08803a22a4d.0" configVersion="e75608a3002f17c59385fc3525018373da22c133"/>
+		<Metadata name="CommonModule.PAPI_ИсторияДанных.Module" id="9f385438-a7d9-4402-b182-c08803a22a4d.0" configVersion="a40c1e7134e5b6d36f29234eedd3beccf0b6da07"/>
 		<Metadata name="CommonModule.PAPI_Логирование" id="0a933b23-d1ff-4c7d-a6c4-360758be41a9" configVersion="553b19df2628b5ee08cdc0238ba660749a4b0b72"/>
 		<Metadata name="CommonModule.PAPI_Логирование.Module" id="0a933b23-d1ff-4c7d-a6c4-360758be41a9.0" configVersion="7169999adbea39c6f5089e37c5b3cf6730a06848"/>
 		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияВызовСервера" id="a8b413e8-18ee-4993-b6cd-936b0c509967" configVersion="d2db065e82491a3c49483f7ceceeea9a6cde9c18"/>
-		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияВызовСервера.Module" id="a8b413e8-18ee-4993-b6cd-936b0c509967.0" configVersion="c643667a38f6973858e12448219ac93df7c9b063"/>
+		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияВызовСервера.Module" id="a8b413e8-18ee-4993-b6cd-936b0c509967.0" configVersion="c4cb59a9aa5bc671ccf6e0d0def456fe1e2bae52"/>
 		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияКлиентСервер" id="c79a1dca-65c3-4140-8579-3e71200f1545" configVersion="133cf522afc59f6d92a2a8a75877952a09801ad1"/>
-		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияКлиентСервер.Module" id="c79a1dca-65c3-4140-8579-3e71200f1545.0" configVersion="892952981e65945fa170927b91526ae84a89db22"/>
+		<Metadata name="CommonModule.PAPI_ОбщегоНазначенияКлиентСервер.Module" id="c79a1dca-65c3-4140-8579-3e71200f1545.0" configVersion="a5969e788cb2d45aea37a8a857610d735e7588e7"/>
+		<Metadata name="CommonModule.PAPI_ОтложенныеОперации" id="d3bc3137-9c18-4c0c-b30e-5ac69d2f9372" configVersion="677b992d7ad9d43e9d1059ee9279ac1e41bdf01c"/>
+		<Metadata name="CommonModule.PAPI_ОтложенныеОперации.Module" id="d3bc3137-9c18-4c0c-b30e-5ac69d2f9372.0" configVersion="df630e6fe42881de6ee658fd66c44a41669c4c14"/>
 		<Metadata name="CommonModule.PAPI_ПодпискиНаСобытия" id="bb77b41d-521e-47f6-ad0a-92cfdaadf78f" configVersion="0fa99aeb5ce7c161a633546baa6782d1c7ba3d4e"/>
 		<Metadata name="CommonModule.PAPI_ПодпискиНаСобытия.Module" id="bb77b41d-521e-47f6-ad0a-92cfdaadf78f.0" configVersion="fad59b19ced56198a9a5bdadc97b902ccc68aa83"/>
 		<Metadata name="CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер" id="020de7ac-115f-4560-bc4f-c27d8fbbbb23" configVersion="888fa22331b09267360e93b8b125c029f9cd04f5"/>
@@ -159,17 +161,17 @@
 		<Metadata name="CommonModule.PAPI_РаботаСАлгоритмами" id="d0401687-ef48-4fa7-b5cf-fe1058b639c5" configVersion="e4088d988b5efc05dbbaa89f9c698680ddd12072"/>
 		<Metadata name="CommonModule.PAPI_РаботаСАлгоритмами.Module" id="d0401687-ef48-4fa7-b5cf-fe1058b639c5.0" configVersion="fd93e1c1368f0285e99b3c5313cfc452dae1619b"/>
 		<Metadata name="CommonModule.PAPI_РаботаСВнешнимиОбработками" id="f122824e-7285-4426-90a2-31ca840f9576" configVersion="389f95082f5e93cabc27e7b99cc07ecd4afed1dc"/>
-		<Metadata name="CommonModule.PAPI_РаботаСВнешнимиОбработками.Module" id="f122824e-7285-4426-90a2-31ca840f9576.0" configVersion="b3b3e1203a7dd8f960bb4dc09d4ca8339f8c72b4"/>
+		<Metadata name="CommonModule.PAPI_РаботаСВнешнимиОбработками.Module" id="f122824e-7285-4426-90a2-31ca840f9576.0" configVersion="e496bb3243630c2fdc63653556c467980782cebe"/>
 		<Metadata name="CommonModule.PAPI_РаботаСВходящимиЗапросами" id="8d67c0f3-2ddc-42a6-a1ea-c8172f5bcf15" configVersion="2f04de9663717edb6ecda3d2029f4dcac61af1be"/>
 		<Metadata name="CommonModule.PAPI_РаботаСВходящимиЗапросами.Module" id="8d67c0f3-2ddc-42a6-a1ea-c8172f5bcf15.0" configVersion="6818cd00535fafdeb1f4365b017f6d1fe2431639"/>
 		<Metadata name="CommonModule.PAPI_РаботаСВходящимиСообщениями" id="abc0dca0-6516-4391-8d1a-c000fd7b2e2e" configVersion="6b38a0581de248dc37ee32545a5d11adad4f16dc"/>
-		<Metadata name="CommonModule.PAPI_РаботаСВходящимиСообщениями.Module" id="abc0dca0-6516-4391-8d1a-c000fd7b2e2e.0" configVersion="691aabca826e76c045cfc03f06c23d85dc57b685"/>
+		<Metadata name="CommonModule.PAPI_РаботаСВходящимиСообщениями.Module" id="abc0dca0-6516-4391-8d1a-c000fd7b2e2e.0" configVersion="7f68cf3cf702f5f2f9003909c9ecabfcfa8697b5"/>
 		<Metadata name="CommonModule.PAPI_РаботаСМетодами" id="48136b4a-ad26-481c-8c6f-782dac64c8df" configVersion="4ef4512fd6ca3b055c4d456ed7af873b5884dffa"/>
 		<Metadata name="CommonModule.PAPI_РаботаСМетодами.Module" id="48136b4a-ad26-481c-8c6f-782dac64c8df.0" configVersion="c8f62a1b4017eab1387e5c19f5ecdb1ff2a703a2"/>
 		<Metadata name="CommonModule.PAPI_РаботаСОтветом" id="b00e7573-c79a-4499-b011-82e9166b3923" configVersion="4cabe7648ddb9aebeaa1e1b6bce2f5cbae17b2ad"/>
 		<Metadata name="CommonModule.PAPI_РаботаСОтветом.Module" id="b00e7573-c79a-4499-b011-82e9166b3923.0" configVersion="6bdbd9563103267974070216e79b1796289b2d71"/>
 		<Metadata name="CommonModule.PAPI_СервисыИнтеграции" id="513d4ef9-0ebb-485c-ba7d-cbb00494d83e" configVersion="adac3263ee43a96146db32cada4ce62214f8f7dd"/>
-		<Metadata name="CommonModule.PAPI_СервисыИнтеграции.Module" id="513d4ef9-0ebb-485c-ba7d-cbb00494d83e.0" configVersion="7cf6331c3895db34297b31d88d31a867668a6106"/>
+		<Metadata name="CommonModule.PAPI_СервисыИнтеграции.Module" id="513d4ef9-0ebb-485c-ba7d-cbb00494d83e.0" configVersion="04fb27a4b6ab1e11e51812737b19301ff55fc9fe"/>
 		<Metadata name="CommonModule.PAPI_СлужебныеДляОбмена" id="67f68714-8b1b-48f8-b2b3-4479dcb04d5d" configVersion="8a25bafd90e972d5b7b9ddde74c8aea0c4c8cb99"/>
 		<Metadata name="CommonModule.PAPI_СлужебныеДляОбмена.Module" id="67f68714-8b1b-48f8-b2b3-4479dcb04d5d.0" configVersion="c0edba0f7cc5c940ca6107b963b15a0079cd8855"/>
 		<Metadata name="CommonPicture.PAPI" id="7b333bf5-8047-4f85-8968-48e3326a1b21" configVersion="03905098355cd28e9de4800821b4baa509f94bd4"/>
@@ -180,12 +182,14 @@
 		<Metadata name="CommonPicture.PAPI_Метаданные.Picture" id="252e521f-f2ad-4e7c-8eff-34755da6099f.0" configVersion="8f35b1adc1dadcd09c4beafd083a0cfda5b50a3f"/>
 		<Metadata name="CommonPicture.PAPI_Подписки" id="3b745028-ce65-4f06-aed3-08a6ecd47f58" configVersion="0e263525a0aa279d6735a06f58a22ab777a0c7a7"/>
 		<Metadata name="CommonPicture.PAPI_Подписки.Picture" id="3b745028-ce65-4f06-aed3-08a6ecd47f58.0" configVersion="f605379d7dc02c6ce95b95c5d3164e17df326c0d"/>
-		<Metadata name="Configuration.ПодсистемаPAPI" id="ec7c6be7-4920-42d3-8618-f3ecb14699c6" configVersion="7e4650800bdd2b6684fcaa8eef9cd17af0875e54"/>
+		<Metadata name="Configuration.ПодсистемаPAPI" id="ec7c6be7-4920-42d3-8618-f3ecb14699c6" configVersion="26acdf6a70044b7d6b3464e586c6337e8984669b"/>
 		<Metadata name="Configuration.ПодсистемаPAPI.ManagedApplicationModule" id="6b384235-7271-4633-9b8b-3b2d33a488ec.6" configVersion="beb3859a8e234aa563f4517e6702351d9604bcf5"/>
 		<Metadata name="Constant.PAPI_ДатаЗапретаОбменаДокументов" id="a8dc409f-b22f-4383-8879-254a3a6e44a4" configVersion="839659a325044f2607de11c04e02b14c2752b49b"/>
 		<Metadata name="Constant.PAPI_Источник" id="fe207390-6cd4-4a22-ab20-31e90a248ffe" configVersion="e134ae5fc1de6d84d01af5b0b97e056485b03fe0"/>
 		<Metadata name="Constant.PAPI_КоличествоПопытокОчередиДокументов" id="85c28877-9316-44cb-af28-84b5f293a22c" configVersion="40aec58865f7c0eb0aa39a0daa592031ae412d6f"/>
 		<Metadata name="Constant.PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции" id="346e50e9-a86e-4169-a9c3-d3cdb21b0496" configVersion="4a40aa6ce31e7e81f32c724a6fe4c6c5dfbbdee2"/>
+		<Metadata name="Constant.PAPI_НастройкаХраненияДанных" id="7a919529-2df0-4cdb-9c91-1a06ba813488" configVersion="d52106e2e26dca7d0b58d66f06038ba34e7b6380"/>
+		<Metadata name="Constant.PAPI_НастройкаХраненияДанных.ManagerModule" id="7a919529-2df0-4cdb-9c91-1a06ba813488.1" configVersion="643ad14c4610eef43c607f2bb76e2015380e0171"/>
 		<Metadata name="Constant.PAPI_ОбменыСервисовИнтеграцииВключены" id="66faf13a-f79b-46c0-94a1-7b6dd3782907" configVersion="4254512ad7eb2440aaeded004da92c672e492826"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСервисовИнтеграции" id="13c637e7-cf10-4185-be23-f54b23873635" configVersion="7fc03ca36d42f4653aabdc9ea35c6eaf8c0d573c">
 			<Metadata name="DataProcessor.PAPI_НастройкаСервисовИнтеграции.Command.НастройкаСИ" id="4e5a765f-294c-4110-b2b1-cf6456a8b02a"/>
@@ -201,7 +205,7 @@
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.ВыборПроизвольнойДаты" id="24473454-617d-4dbb-ac23-1a016549268c" configVersion="f4fb784501f02065745b5a29e8edb8560d65c575"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.ВыборПроизвольнойДаты.Form" id="24473454-617d-4dbb-ac23-1a016549268c.0" configVersion="329548f33229ddf089d715a8523c0e205fa94f44"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.Форма" id="5cd47e07-3172-47d0-b836-8ca2618b6820" configVersion="98fe8e109c9e79ea397f047c0777e8fca6cc5330"/>
-		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.Форма.Form" id="5cd47e07-3172-47d0-b836-8ca2618b6820.0" configVersion="475dedda621fb42748bd62870bea95f5283fce70"/>
+		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.Форма.Form" id="5cd47e07-3172-47d0-b836-8ca2618b6820.0" configVersion="67028870b4db8ef94270c811ba875420a978b2f6"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.ФормаПрогресса" id="24c96ae7-805f-43ce-88b9-41e04d402a5e" configVersion="956dd7542e3fc704a926eb23ede2f46c3401d1d8"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Form.ФормаПрогресса.Form" id="24c96ae7-805f-43ce-88b9-41e04d402a5e.0" configVersion="67d442093c48a944ed76a53e43df834d55fd4c93"/>
 		<Metadata name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.ObjectModule" id="e8b5a381-3c80-4cea-924c-d2c89ce730cf.0" configVersion="a176e1dacc4bb685cd036cada869240ea577c908"/>
@@ -236,6 +240,7 @@
 		<Metadata name="Document.PAPI_ВходящийЗапрос.Form.ФормаВыбора.Form" id="5373341d-73b5-4c7c-b971-fd3dffad3ec6.0" configVersion="79aeb5e86d2d1b605f16838ba8aa4f9115bacf7a"/>
 		<Metadata name="Document.PAPI_ВходящийЗапрос.Form.ФормаДокумента" id="8a80b7bb-89f4-40ca-a95e-5fcd0bc0068f" configVersion="15dc680340f1110901635a4123c85a4b14fa7934"/>
 		<Metadata name="Document.PAPI_ВходящийЗапрос.Form.ФормаДокумента.Form" id="8a80b7bb-89f4-40ca-a95e-5fcd0bc0068f.0" configVersion="30c39961c324581ad128e21d1510904352e9fa69"/>
+		<Metadata name="Document.PAPI_ВходящийЗапрос.ManagerModule" id="f6020250-c25e-4107-aef3-f7aa371a5027.2" configVersion="ab0e8a2fb12ffe9f6c1dee6431f1644b1b44a51b"/>
 		<Metadata name="Document.PAPI_ВходящийЗапрос.ObjectModule" id="f6020250-c25e-4107-aef3-f7aa371a5027.0" configVersion="a757ecaba3d44c3a3123630ff11dc58b78a9fc13"/>
 		<Metadata name="Enum.PAPI_ДействиеСДокументом" id="8e556a81-af90-4719-a24a-ce1456c23883" configVersion="1201a0646774f12cf2f4b7d0c5747e9fac4c00ce">
 			<Metadata name="Enum.PAPI_ДействиеСДокументом.EnumValue.Запись" id="18bbd3ae-d32c-40dc-bdb9-76ad5b99aa70"/>
@@ -245,7 +250,7 @@
 			<Metadata name="Enum.PAPI_ДействиеСДокументом.EnumValue.СнятьПометкуУдаления" id="917369cb-c55f-4bcc-a3d8-d0d02dcbb16d"/>
 			<Metadata name="Enum.PAPI_ДействиеСДокументом.EnumValue.ПроведениеНеоперативный" id="c5fff558-01f9-4cfa-84e6-b46722a12f45"/>
 		</Metadata>
-		<Metadata name="Enum.PAPI_СрокиХранения" id="7a79fd82-05a0-4993-b026-ceaaabcb20c2" configVersion="46eeaeb507f5fd34a59a27df54bca9141fd7d2d6">
+		<Metadata name="Enum.PAPI_СрокиХранения" id="7a79fd82-05a0-4993-b026-ceaaabcb20c2" configVersion="a404810d52cd00989afccf5f55137b5500c1af09">
 			<Metadata name="Enum.PAPI_СрокиХранения.EnumValue.ЗаШестьМесяцев" id="2af20f42-ec09-4bd7-b7e6-9bd70acc46df"/>
 			<Metadata name="Enum.PAPI_СрокиХранения.EnumValue.ЗаНеделю" id="5237ccca-82de-45e3-8203-8f5fea2228af"/>
 			<Metadata name="Enum.PAPI_СрокиХранения.EnumValue.ЗаМесяц" id="60c33745-77a4-4f24-ac08-12e11756daac"/>
@@ -254,7 +259,7 @@
 			<Metadata name="Enum.PAPI_СрокиХранения.EnumValue.ЗаТриМесяца" id="a2b85238-7af8-4ac4-a28d-799f2c51a066"/>
 			<Metadata name="Enum.PAPI_СрокиХранения.EnumValue.ЗаДень" id="c96c8b47-60b2-4540-854b-97e5bec4bf92"/>
 		</Metadata>
-		<Metadata name="Enum.PAPI_СрокиХранения.ManagerModule" id="7a79fd82-05a0-4993-b026-ceaaabcb20c2.0" configVersion="17a32aa525fd90d763931e5cce261eeea183aa44"/>
+		<Metadata name="Enum.PAPI_СрокиХранения.ManagerModule" id="7a79fd82-05a0-4993-b026-ceaaabcb20c2.0" configVersion="4c5f0214b00ab4fad4dda1d4a874ee14c1afda5f"/>
 		<Metadata name="Enum.PAPI_ТелоЗапроса" id="1dd11933-dab4-42ea-8f5e-e3a878488fae" configVersion="a80d8aff1387434b4a8639604f05b2755e81cf73">
 			<Metadata name="Enum.PAPI_ТелоЗапроса.EnumValue.ДвоичныеДанные" id="20e7edee-28a8-4306-ade5-20b2f91c5fb2"/>
 			<Metadata name="Enum.PAPI_ТелоЗапроса.EnumValue.Строка" id="7a8e21ea-63e3-48f0-b17f-a94759c89a01"/>
@@ -314,7 +319,7 @@
 			<Metadata name="HTTPService.PAPI_lower.URLTemplate.PAPI" id="9e52fd40-8f1b-41c0-a90f-a695fa6e63be"/>
 		</Metadata>
 		<Metadata name="HTTPService.PAPI_lower.Module" id="c21247e5-bb7d-4f1a-b76f-75ca83622c3f.0" configVersion="4d13c943ade7a585f1d2a2fb00bfdb542c25710e"/>
-		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции" id="4937197a-79fa-444b-a6d0-79b5ac851aa3" configVersion="31fe149af3208aba49ca5b9f3402e281ce912521">
+		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции" id="4937197a-79fa-444b-a6d0-79b5ac851aa3" configVersion="e73ccec200fde06ac5493d11c633416edd35e325">
 			<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Attribute.Представление" id="1e0f7565-e319-4ba4-bc5d-ecbce60b00be"/>
 			<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Resource.ДатаУстаревания" id="4545e26f-3720-4af3-bde0-aa8b80314bf8"/>
 			<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Attribute.ИдОбъекта" id="4594d664-349c-4245-8c2e-4743fa63e1f2"/>
@@ -334,7 +339,7 @@
 		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Form.ФормаЗаписи.Form" id="eb312a04-70bf-4bdf-a1d9-5f26d744517c.0" configVersion="5cc0ecd44aa3fa80c735c9e0e46c0ba6380b08b3"/>
 		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Form.ФормаСписка" id="107a1592-6f0c-4379-bb53-3d485171d42a" configVersion="7c161d37dc3800372867abc13033fae4c3ae4ff0"/>
 		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.Form.ФормаСписка.Form" id="107a1592-6f0c-4379-bb53-3d485171d42a.0" configVersion="0d76477e4a2b71a8f57a32c977cfdb777ac5c171"/>
-		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.ManagerModule" id="4937197a-79fa-444b-a6d0-79b5ac851aa3.2" configVersion="286d7600865d48ff67f3ad92bb8627d5a066326c"/>
+		<Metadata name="InformationRegister.PAPI_ВходящиеСообщенияСервисаИнтеграции.ManagerModule" id="4937197a-79fa-444b-a6d0-79b5ac851aa3.2" configVersion="d226e82e4e98ea7ee16b05a0af58dfb045abe13b"/>
 		<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных" id="974b5789-522d-4946-aed8-3f8e84a67847" configVersion="31b09e9ce82813191782b4eaaa0f27044113e847">
 			<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.Dimension.Идентификатор" id="00a7a407-5be8-43c5-8232-6b6114e44e75"/>
 			<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.Attribute.ИдОбъекта" id="01d79555-7436-44c8-9342-097c1edc4320"/>
@@ -348,7 +353,7 @@
 			<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.Attribute.ТипСообщения" id="a0029e5a-980d-4f77-bf27-ac745242c3fa"/>
 			<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.Attribute.ДатаЧтения" id="befd8e4b-9eb2-451c-80db-a7558e33a214"/>
 		</Metadata>
-		<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.ManagerModule" id="974b5789-522d-4946-aed8-3f8e84a67847.2" configVersion="a1cef735c85cbeedac9d76525b3b8d5141e4899d"/>
+		<Metadata name="InformationRegister.PAPI_ЗапросНедостающихДанных.ManagerModule" id="974b5789-522d-4946-aed8-3f8e84a67847.2" configVersion="0eecaf0462a22c5471656913c39bd6975d277b38"/>
 		<Metadata name="InformationRegister.PAPI_ЛогАлгоритмов" id="ae7045b1-74e4-460c-856a-54405036b434" configVersion="cd6a862edb22676397a62ded738614a92b748fda">
 			<Metadata name="InformationRegister.PAPI_ЛогАлгоритмов.Dimension.ДатаВремя" id="051b6d92-fef5-44d6-8a54-9ea96c36d350"/>
 			<Metadata name="InformationRegister.PAPI_ЛогАлгоритмов.Attribute.Информация" id="67be7463-f416-4ac8-a268-c0909e29d413"/>
@@ -367,13 +372,13 @@
 		<Metadata name="InformationRegister.PAPI_ЛогМетодов.Form.ФормаЗаписи" id="278f519d-b8b8-4679-bbda-6d0bf732517d" configVersion="541c43da66c3cc09a22aa291c35e9a25569216b6"/>
 		<Metadata name="InformationRegister.PAPI_ЛогМетодов.Form.ФормаЗаписи.Form" id="278f519d-b8b8-4679-bbda-6d0bf732517d.0" configVersion="e368427bb80696578626be926d78ea3da8b89f4b"/>
 		<Metadata name="InformationRegister.PAPI_ЛогМетодов.ManagerModule" id="838cb7a6-9486-4ea0-919a-98f2475c74c1.2" configVersion="577fe41773ea795626f76f06b8269b3067cf1f88"/>
-		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории" id="0c33f9f7-8d65-410a-b837-bbcd7458d434" configVersion="42e6c157b81f7cc91748f70e6e0e9c2cf6fda0a1">
+		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории" id="0c33f9f7-8d65-410a-b837-bbcd7458d434" configVersion="eb18d58af771ac8de38a1817c81b5f93440bd14a">
 			<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Dimension.ТипДанных" id="74abdca4-60ff-458b-9f72-9b118a03074a"/>
 			<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Resource.СрокХранения" id="b450fc0b-c5a9-4801-9c37-513844475029"/>
 			<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Dimension.ИмяОбъекта" id="e0c21e24-eef8-4c0e-8185-bcf2d64d3a2c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Form.НастройкаИсторииХранения" id="13ce440c-bd6e-4799-a2eb-e35f5b67414c" configVersion="d11b27624e283c569c25812a4ecb0a06dd4a49ef"/>
-		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Form.НастройкаИсторииХранения.Form" id="13ce440c-bd6e-4799-a2eb-e35f5b67414c.0" configVersion="bfd7e2189a97feecd7b27e1b5edc95267ff63977"/>
+		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.Form.НастройкаИсторииХранения.Form" id="13ce440c-bd6e-4799-a2eb-e35f5b67414c.0" configVersion="6b0258d5edaf468c98490b808c0b5b45c58a242f"/>
 		<Metadata name="InformationRegister.PAPI_НастройкиХраненияИстории.ManagerModule" id="0c33f9f7-8d65-410a-b837-bbcd7458d434.2" configVersion="02420495a47c2d3f290fad0f8ff8258f29d8a810"/>
 		<Metadata name="InformationRegister.PAPI_ОтборыПолучателей" id="340a1bd9-5442-4233-84f2-92b64854a3bb" configVersion="3a89013636e6f983f094a049a1d723e82a21302a">
 			<Metadata name="InformationRegister.PAPI_ОтборыПолучателей.Dimension.Получатель" id="49f4d0ec-683a-41e6-96b0-310a75158381"/>
@@ -384,7 +389,7 @@
 		<Metadata name="InformationRegister.PAPI_ОтборыПолучателей.Form.ФормаСписка" id="4f383b98-2fb9-449b-8784-66d7983a7217" configVersion="93b4e177038c1ce5030caacf75bcb2ca97fbc6de"/>
 		<Metadata name="InformationRegister.PAPI_ОтборыПолучателей.Form.ФормаСписка.Form" id="4f383b98-2fb9-449b-8784-66d7983a7217.0" configVersion="ab30b8c35ab2f96dd88286c9ca03cba75b2422e1"/>
 		<Metadata name="InformationRegister.PAPI_ОтборыПолучателей.ManagerModule" id="340a1bd9-5442-4233-84f2-92b64854a3bb.2" configVersion="8811a8563cec071f91507a649952356f0cb5a299"/>
-		<Metadata name="InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения" id="735fcb6c-6b47-44f3-a476-845d0ea5f008" configVersion="47cc9c2ac6ba2979408e732fbef6517f71db6f6d">
+		<Metadata name="InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения" id="735fcb6c-6b47-44f3-a476-845d0ea5f008" configVersion="07b317e2f61a7d168cc5c4f7ac127acfab071e14">
 			<Metadata name="InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения.Attribute.ДатаОкончания" id="09243007-2b81-46a9-9388-72ffc829d306"/>
 			<Metadata name="InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения.Dimension.Алгоритм" id="1389fa17-7c17-481b-a4fa-d538303c0890"/>
 			<Metadata name="InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения.Attribute.ДатаНачала" id="1ca6346b-625c-4a3a-9ab6-029e62f84d64"/>
@@ -410,7 +415,7 @@
 		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.Form.ФормаЗаписи.Form" id="1866bc1b-ee46-4a20-9bac-f20ef0f008ae.0" configVersion="27cbad45bb0778e10a30a38af7a7f841d24dd3e7"/>
 		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.Form.ФормаСписка" id="b16660ff-7d08-48a2-9b0a-fb946e9b8fd9" configVersion="d02657fdd42fbfcf6825bcf9e79e483a81e0161c"/>
 		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.Form.ФормаСписка.Form" id="b16660ff-7d08-48a2-9b0a-fb946e9b8fd9.0" configVersion="ebc7f9406c1a32a50d914424ddba2b4f5e7a5878"/>
-		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.ManagerModule" id="067a44ed-6f1b-459a-b3b8-ef0cfecdd691.2" configVersion="5862e0cb87ef464059e4e75ad5d140a95d751876"/>
+		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.ManagerModule" id="067a44ed-6f1b-459a-b3b8-ef0cfecdd691.2" configVersion="ab62de14d58fa6e9432ad9e6a8b10452aad9eb63"/>
 		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.Template.ИнформацияПоДействиям" id="73e20746-0138-45cd-9a91-c44e5a39e61d" configVersion="4fa74859399985279ea6efb17895f4a6835f10f7"/>
 		<Metadata name="InformationRegister.PAPI_ОчередьДействийСДокументами.Template.ИнформацияПоДействиям.Template" id="73e20746-0138-45cd-9a91-c44e5a39e61d.0" configVersion="97883c699230fe032e70e9fd9b8beb23e5ce2ab3"/>
 		<Metadata name="InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий" id="0217bfa5-ac0b-4f42-9b70-f7dcdca638a8" configVersion="74e204bcaf1da72dc992122d032fe78863fd202e">
@@ -436,44 +441,46 @@
 			<Metadata name="InformationRegister.PAPI_ХранилищеРезультатов.Dimension.КлючПоиска" id="cb38f112-dbd2-4afe-bb58-00a2c9bb945f"/>
 			<Metadata name="InformationRegister.PAPI_ХранилищеРезультатов.Dimension.НомерЧасти" id="d2834b60-5738-44a3-b178-9495e23ae09c"/>
 		</Metadata>
-		<Metadata name="InformationRegister.PAPI_ХранилищеРезультатов.ManagerModule" id="12fe4574-a967-444d-b33c-0573e5be004a.2" configVersion="e24faf2911afd6e4332f9270c1ff499c270886f3"/>
+		<Metadata name="InformationRegister.PAPI_ХранилищеРезультатов.ManagerModule" id="12fe4574-a967-444d-b33c-0573e5be004a.2" configVersion="57403b6865b28814c4d472a362d75675e194076b"/>
 		<Metadata name="Language.Русский" id="8c00922b-80b2-4c14-b156-64065fc06a8a" configVersion="34e03c292da0839bd81920e3de2e90327398b30c"/>
 		<Metadata name="Role.PAPI_Администратор" id="9d1bac82-a05f-4f35-ba30-ce8f98f0ff2c" configVersion="122a77db2fe3c404f7773678b7ea96a4ceac3892"/>
-		<Metadata name="Role.PAPI_Администратор.Rights" id="9d1bac82-a05f-4f35-ba30-ce8f98f0ff2c.0" configVersion="f5661e62ed459a8cb7a1dc9275406fa4efa6af4f"/>
+		<Metadata name="Role.PAPI_Администратор.Rights" id="9d1bac82-a05f-4f35-ba30-ce8f98f0ff2c.0" configVersion="efe0b9232e082ac29cd8dd7c0863b2a4b7e84111"/>
 		<Metadata name="Role.PAPI_БазовыеПрава" id="f9cc58f8-eb14-4921-be2b-af8c255d0ba3" configVersion="f8b146c49e5ae0583d0502c842b3834c8434da67"/>
-		<Metadata name="Role.PAPI_БазовыеПрава.Rights" id="f9cc58f8-eb14-4921-be2b-af8c255d0ba3.0" configVersion="7789ee17b6c70990965a0130bec5c5bb13fdd56d"/>
+		<Metadata name="Role.PAPI_БазовыеПрава.Rights" id="f9cc58f8-eb14-4921-be2b-af8c255d0ba3.0" configVersion="0f9f66b77d82f30bb728488e1362533117cc0734"/>
 		<Metadata name="Role.PAPI_Оператор" id="b70780f9-ad77-4b23-b696-cae76d26fa96" configVersion="ee01f7e6989a95bca0456e33a2b876088a37181e"/>
 		<Metadata name="Role.PAPI_Оператор.Rights" id="b70780f9-ad77-4b23-b696-cae76d26fa96.0" configVersion="f797538bcb20552c2d45f678b9e95870879df46b"/>
 		<Metadata name="Role.PAPI_ПодсистемаPAPI" id="89edac91-9890-4c30-a3ca-68b95002e746" configVersion="d23062c9243face800498b94ec83c2ef0b83f11b"/>
 		<Metadata name="Role.PAPI_ПодсистемаPAPI.Rights" id="89edac91-9890-4c30-a3ca-68b95002e746.0" configVersion="d233e45ecc6d216221de039d4c3d50401de9732f"/>
-		<Metadata name="ScheduledJob.PAPI_ВыполнитьОбработкуОчередиДействийСДокументами" id="6b377891-4081-4447-9c0e-17d6a5181f6a" configVersion="862778d858e2fa37829842bfa8248b134a552fdc"/>
+		<Metadata name="ScheduledJob.PAPI_ВыполнитьОбработкуОчередиДействийСДокументами" id="6b377891-4081-4447-9c0e-17d6a5181f6a" configVersion="60c3a36974d7698feefcbbb884c927da09d3b374"/>
 		<Metadata name="ScheduledJob.PAPI_ИсторияДанныхВыполнитьОбработкуПослеЗаписиВерсий" id="f913d438-2a5f-4bf7-bbdc-baad2501fa54" configVersion="c773a740dbbadfdd125f1b85c62ed2da8d78032a"/>
 		<Metadata name="ScheduledJob.PAPI_ИсторияДанныхОбновитьИсторию" id="54b4f7cc-b9f1-4831-8166-84c091fe605f" configVersion="47bebc5020970435396a6c952e9024a0486559b8"/>
 		<Metadata name="ScheduledJob.PAPI_ИсторияДанныхУдалитьВерсии" id="ee7559d9-1632-4a52-aadc-d7efb61bd9ed" configVersion="c26421b78ecb07c22b86c2c83c788e75362c4391"/>
 		<Metadata name="ScheduledJob.PAPI_ИсторияДанныхУдалитьВерсии.Schedule" id="ee7559d9-1632-4a52-aadc-d7efb61bd9ed.0" configVersion="25337bccfd8284fd049a914aa970cb2d65cdf323"/>
 		<Metadata name="ScheduledJob.PAPI_СервисыИнтеграцииВыполнитьОбработку" id="b20d73a3-d789-4b9e-8e94-579da2d6fce1" configVersion="7107ee702b27ae85a63e2921746bcbfccf977334"/>
 		<Metadata name="ScheduledJob.PAPI_СервисыИнтеграцииВыполнитьОбработку.Schedule" id="b20d73a3-d789-4b9e-8e94-579da2d6fce1.0" configVersion="f1a80b85e0a5474c79dceeb2767da3b0e8b6e2d1"/>
-		<Metadata name="Subsystem.PAPI" id="a17e61f6-2bdd-45e2-b9c2-9661609099be" configVersion="35d97d786d5591fa0ebb46dc82b3c421ee73cf3f"/>
-		<Metadata name="Subsystem.PAPI.CommandInterface" id="a17e61f6-2bdd-45e2-b9c2-9661609099be.1" configVersion="dc1cc657b49ec11e34956f2a012c167d8200e292"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_HTTP" id="d80565dc-59cb-4c4b-a6b4-36f550b5a86f" configVersion="c7783c345129f9800b680e48f5da2ed08bab81eb"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_HTTP.CommandInterface" id="d80565dc-59cb-4c4b-a6b4-36f550b5a86f.1" configVersion="e62000aa8d0b10859adaf6273e07c04cca7353e6"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_HTTP.Subsystem.PAPI_Методы" id="79b3b551-ae01-4ca1-a982-d68177d03366" configVersion="2c2fe86dd5860a972628fef0bd4f61e864ca8634"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_HTTP.Subsystem.PAPI_Методы.CommandInterface" id="79b3b551-ae01-4ca1-a982-d68177d03366.1" configVersion="4673236dba7a1a483e00ca999f70509d079b645e"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Алгоритмы" id="f3a9c3f7-a7f8-4f20-b00b-2486c1217bcd" configVersion="5fadb3a0add14dfe22783ed22fd132448a53f01a"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Алгоритмы.CommandInterface" id="f3a9c3f7-a7f8-4f20-b00b-2486c1217bcd.1" configVersion="327b9caf2ad3ad54d9cc2bb9e65dd050b98cfc21"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ДополнительныеИнструменты" id="b1e906b2-220b-4399-990e-97bbeac83f88" configVersion="492ea4b6980ed28b48be9992423afe5175d9d641"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных" id="6abf5225-97d8-4460-9452-fb426ae64338" configVersion="6c4c42131e11a4c681e252011fbab177f55f3c8c"/>
+		<Metadata name="ScheduledJob.PAPI_УдалениеСтарыхДанных" id="ef6a105d-bf19-40a5-90f1-75f3164124c7" configVersion="ac4641389d96c31dfae20c4ec2b26c1fb84f34ff"/>
+		<Metadata name="ScheduledJob.PAPI_УдалениеСтарыхДанных.Schedule" id="ef6a105d-bf19-40a5-90f1-75f3164124c7.0" configVersion="c8d1c918c4029b9ce3efdc08486954ea6f7a337b"/>
+		<Metadata name="Subsystem.PAPI" id="a17e61f6-2bdd-45e2-b9c2-9661609099be" configVersion="2e40805a836e992551f718a8930593740d88a273"/>
+		<Metadata name="Subsystem.PAPI.CommandInterface" id="a17e61f6-2bdd-45e2-b9c2-9661609099be.1" configVersion="236f83d676ae830b20dea4edc2d6f71dddbd97f2"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы" id="536ebe14-c111-4b2e-b671-3622a33df93e" configVersion="5ae15318d5f2721dfd56e7410eb674a30653d346"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.CommandInterface" id="536ebe14-c111-4b2e-b671-3622a33df93e.1" configVersion="6109f98091b65ef17db9aade2193a7bbdf21ab6e"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы" id="f3a9c3f7-a7f8-4f20-b00b-2486c1217bcd" configVersion="07a8fea030d7e34dc22aae4b3907c621a6edaa19"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.CommandInterface" id="f3a9c3f7-a7f8-4f20-b00b-2486c1217bcd.1" configVersion="327b9caf2ad3ad54d9cc2bb9e65dd050b98cfc21"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_HTTP" id="d80565dc-59cb-4c4b-a6b4-36f550b5a86f" configVersion="44b0de248a7a32c1cfabf7f8a718da75cd565629"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_HTTP.CommandInterface" id="d80565dc-59cb-4c4b-a6b4-36f550b5a86f.1" configVersion="84064add6205174d5a8dca683f3a7b13b24b1077"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ОчередьАлгоритмов" id="43d7108c-b464-4937-ab2e-097fbb7e4f5a" configVersion="10ca62dabd367f984c25ac00a176e7b6e109aa89"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ПодпискиНаСобытия" id="b365cc65-e18b-415e-b473-bf9b650867be" configVersion="6dd16cf0bf6d8c3424c902b10fd40cfaacb3234a"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ПодпискиНаСобытия.CommandInterface" id="b365cc65-e18b-415e-b473-bf9b650867be.1" configVersion="e5b0e72e3f3ce5f4859727774d1053233f54a60d"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции" id="8a444977-44ca-4c8e-9faa-37e226442828" configVersion="320e1a0c7d555ee51f9dcda5d37114da7aeb95d7"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции.CommandInterface" id="8a444977-44ca-4c8e-9faa-37e226442828.1" configVersion="2b8318befed793e5dc11ee0f747c39a6adc25c21"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции" id="389d8e10-97d9-4291-b485-0356218a95a2" configVersion="d05da0af7b595e563b0448d5143c8bf6c62966f3"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции.CommandInterface" id="389d8e10-97d9-4291-b485-0356218a95a2.1" configVersion="ba6dd8e0e04de9a86b0e278f5d652f23c9ac2dfa"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Инструменты" id="b1e906b2-220b-4399-990e-97bbeac83f88" configVersion="cb11190e0fb5452180f788aa6fce90f86235f518"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Инструменты.CommandInterface" id="b1e906b2-220b-4399-990e-97bbeac83f88.1" configVersion="b174d1791bec2390e372e8436d7415583914cd17"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных" id="6abf5225-97d8-4460-9452-fb426ae64338" configVersion="03ad4b7c65135acc0cf5c136057c99cc42141705"/>
 		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных.CommandInterface" id="6abf5225-97d8-4460-9452-fb426ae64338.1" configVersion="6ffdf3e16067841cba53a5750f3b7a84570e73c8"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ОтложенныеОперации" id="daafd6ed-2cec-4c3a-965e-be50a1213a5a" configVersion="8cd24aea526d1b88c8fa68904552acb1f78d5b77"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных.Subsystem.PAPI_ОбработкаПослеЗаписиВерсий" id="80626e81-a729-4296-9268-a56b3e7b90f8" configVersion="8e88edbc4042d4eb499a360b1d3cc58096ef9f87"/>
+		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ОтложенныеОперации" id="daafd6ed-2cec-4c3a-965e-be50a1213a5a" configVersion="4e4840d65b6d7cf171e54d96f1e2a08e92666590"/>
 		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ОтложенныеОперации.CommandInterface" id="daafd6ed-2cec-4c3a-965e-be50a1213a5a.1" configVersion="305ff04b408a7faf46ab1c490a5193de52904137"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия" id="b365cc65-e18b-415e-b473-bf9b650867be" configVersion="4f343696abccb59391b0894cdd3ed37f74d7a397"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия.CommandInterface" id="b365cc65-e18b-415e-b473-bf9b650867be.1" configVersion="e5b0e72e3f3ce5f4859727774d1053233f54a60d"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции" id="8a444977-44ca-4c8e-9faa-37e226442828" configVersion="6186c7bf802046f10c06eb85825dc02039e6fb7c"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.CommandInterface" id="8a444977-44ca-4c8e-9faa-37e226442828.1" configVersion="2b8318befed793e5dc11ee0f747c39a6adc25c21"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_Каналы" id="7b3e67ff-05a2-49fc-9e35-3529a858d7a6" configVersion="6714aa324235c5975326ad796c6104869dce9fa6"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции" id="389d8e10-97d9-4291-b485-0356218a95a2" configVersion="bbe66d357bc690abf73f1011c53f022953e4f367"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции.CommandInterface" id="389d8e10-97d9-4291-b485-0356218a95a2.1" configVersion="41c2d7b150753f833cbbfe0f103ad9c31dac51b5"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Шина" id="82526555-6c68-4ebb-b8c1-69b54f50ef63" configVersion="9141e419d7b39d5ae4ec5196a4defabff126daef"/>
-		<Metadata name="Subsystem.PAPI.Subsystem.PAPI_Шина.CommandInterface" id="82526555-6c68-4ebb-b8c1-69b54f50ef63.1" configVersion="b3893c129a0f3a1e9729603e98e40f1b77ed0d73"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

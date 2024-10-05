@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Subsystem uuid="b365cc65-e18b-415e-b473-bf9b650867be">
+		<Properties>
+			<Name>PAPI_ПодпискиНаСобытия</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписки на события</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсистема для создания подписок на события</v8:content>
+				</v8:item>
+			</Explanation>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПередЗаписью_Документы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПередЗаписью_ОбъектыБезДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПередЗаписью_РегистрРасчетаНаборЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ПодпискиНаСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ТипПодпискиНаСобытие</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PAPI_ПодпискиНаСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаПослеЗаписиВерсийИсторииДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаФормированияПоВерсииИсторииДанных_Объекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаФормированияПоВерсииИсторииДанных_РегистрСведений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПередЗаписью_Регистры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПередУдалением_Объекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПриЗаписи_Объекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПриЗаписи_РегистрРасчетаНаборЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПриЗаписи_Регистры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ПриКопировании_Объекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаПроведения_Документы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаУдаленияПроведения_Документы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Подписки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.PAPI_ОбработкаПроверкиЗаполнения</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

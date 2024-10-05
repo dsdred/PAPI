@@ -326,6 +326,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.PAPI_НастройкаХраненияДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.PAPI.URLTemplate.PAPI.Method.ANY</name>
 		<right>
 			<name>Use</name>

@@ -63,7 +63,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции.Subsystem.PAPI_СообщенияСервисовИнтеграции</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -136,14 +136,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_Шина</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_СервисыИнтеграции</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -200,21 +193,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_ДополнительныеИнструменты</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_Инструменты</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ПодпискиНаСобытия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_HTTP</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_HTTP</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

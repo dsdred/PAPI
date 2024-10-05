@@ -166,12 +166,7 @@
 					<v8:content>Настройка хранения версий</v8:content>
 				</v8:item>
 			</RecordPresentation>
-			<ExtendedRecordPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройка хранения версий</v8:content>
-				</v8:item>
-			</ExtendedRecordPresentation>
+			<ExtendedRecordPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

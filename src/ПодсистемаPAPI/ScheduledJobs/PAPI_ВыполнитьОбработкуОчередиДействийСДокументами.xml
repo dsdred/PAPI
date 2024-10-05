@@ -10,7 +10,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.PAPI_АсинхронныеОперации.ВыполнитьОбработкуОчередиДействийСДокументами</MethodName>
+			<MethodName>CommonModule.PAPI_ОтложенныеОперации.ВыполнитьОбработкуОчередиДействийСДокументами</MethodName>
 			<Description/>
 			<Key/>
 			<Use>false</Use>

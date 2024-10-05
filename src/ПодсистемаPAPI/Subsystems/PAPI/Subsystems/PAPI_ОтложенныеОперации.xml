@@ -21,12 +21,11 @@
 			</Explanation>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ОчередьАлгоритмовДляФоновогоВыполнения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ОчередьДействийСДокументами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_КоличествоПопытокОчередиДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ДействиеСДокументом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_ВыполнитьОбработкуОчередиДействийСДокументами</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_АсинхронныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОтложенныеОперации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

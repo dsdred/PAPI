@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CommandsVisibility>
+		<Command name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Command.НастройкаСоставаИД">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_НастройкаСервисовИнтеграции.Command.НастройкаСИ">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_ОтправкаСообщенияСервисовИнтеграции.Command.ОтправкаСообщенияСервисовИнтеграции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_СообщенияСервисовИнтеграции.Command.СообщенияСервисовИнтеграции">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_НастройкаСервисовИнтеграции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_ОтправкаСообщенияСервисовИнтеграции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.PAPI_СообщенияСервисовИнтеграции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Command.НастройкаСоставаИД">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.PAPI_НастройкаСервисовИнтеграции.Command.НастройкаСИ">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.PAPI_ОтправкаСообщенияСервисовИнтеграции.Command.ОтправкаСообщенияСервисовИнтеграции">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.PAPI_СообщенияСервисовИнтеграции.Command.СообщенияСервисовИнтеграции">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.Command.НастройкаСоставаИД">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.PAPI_НастройкаСервисовИнтеграции.Command.НастройкаСИ">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.PAPI_ОтправкаСообщенияСервисовИнтеграции.Command.ОтправкаСообщенияСервисовИнтеграции">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.PAPI_СообщенияСервисовИнтеграции.Command.СообщенияСервисовИнтеграции">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>1058c7b4-2bde-4df9-975d-bcd26ac66cb5</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+	</GroupsOrder>
+</CommandInterface>

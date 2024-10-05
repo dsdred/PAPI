@@ -71,7 +71,7 @@
 			<Explanation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>При включении в регистр сведений «PAPI_ВходящиеСообщенияСервисаИнтеграции» будут записываться все входящие сообщения. При выключенном режиме будут записываться только непрочитанные сообщения.</v8:content>
+					<v8:content>При включении константы "PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции", в регистр сведений "PAPI_ВходящиеСообщенияСервисаИнтеграции" будут записываться все входящие сообщения. При выключенном режиме будут записываться только непрочитанные сообщения.</v8:content>
 				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
@@ -550,7 +550,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>1024</v8:Length>
+							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>

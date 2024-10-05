@@ -28,43 +28,26 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_Администратор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_БазовыеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_ПодсистемаPAPI</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_РаботаСАлгоритмами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_Логирование</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PAPI_Алгоритмы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PAPI_ВнешняяОбработка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PAPI_ШаблоныСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ТипЛога</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ЛогАлгоритмов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ДанныеДляЗаполненияНастроек</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_РаботаСВнешнимиОбработками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ТипВыполнения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_РаботаСОтветом</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Команды</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Метаданные</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ОтборыПолучателей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_ДатаЗапретаОбменаДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_СлужебныеДляОбмена</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_КоличествоПопытокОчередиДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_ОбменыСервисовИнтеграцииВключены</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.PAPI_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.PAPI_Настройки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_Оператор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_СрокиХранения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_АсинхронныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_НастройкаХраненияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Метаданные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_УдалениеСтарыхДанных</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>PAPI_Алгоритмы</Subsystem>
-			<Subsystem>PAPI_HTTP</Subsystem>
+			<Subsystem>PAPI_ВычисляемыеПодсистемы</Subsystem>
+			<Subsystem>PAPI_Инструменты</Subsystem>
 			<Subsystem>PAPI_ИсторияДанных</Subsystem>
 			<Subsystem>PAPI_ОтложенныеОперации</Subsystem>
-			<Subsystem>PAPI_ПодпискиНаСобытия</Subsystem>
-			<Subsystem>PAPI_Шина</Subsystem>
-			<Subsystem>PAPI_ДополнительныеИнструменты</Subsystem>
-			<Subsystem>PAPI_СервисыИнтеграции</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

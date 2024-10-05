@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>PAPI: Очередь алгоритмов для фонового выполнения</v8:content>
+					<v8:content>PAPI: Очередь алгоритмов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -163,14 +163,14 @@
 			<RecordPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Очередь алгоритма</v8:content>
+					<v8:content>Алгоритм из очереди</v8:content>
 				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Очередь алгоритмов для фонового выполнения</v8:content>
+					<v8:content>Очередь алгоритмов</v8:content>
 				</v8:item>
 			</ListPresentation>
 			<ExtendedListPresentation/>

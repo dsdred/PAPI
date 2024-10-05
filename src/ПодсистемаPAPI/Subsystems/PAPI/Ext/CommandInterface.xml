@@ -1,37 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<CommandsVisibility>
-		<Command name="Catalog.PAPI_Алгоритмы.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Catalog.PAPI_ВнешняяОбработка.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="InformationRegister.PAPI_ЛогАлгоритмов.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Constant.PAPI_ДатаЗапретаОбменаДокументов.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Constant.PAPI_КоличествоПопытокОчередиДокументов.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Constant.PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции.StandardCommand.Open">
+		<Command name="Constant.PAPI_НастройкаХраненияДанных.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -41,54 +11,17 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.PAPI_ОбменыСервисовИнтеграцииВключены.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
 	</CommandsVisibility>
-	<CommandsPlacement>
-		<Command name="Catalog.PAPI_Алгоритмы.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="Catalog.PAPI_ВнешняяОбработка.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.PAPI_Алгоритмы.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-		</Command>
 		<Command name="CommonCommand.PAPI_Настройки">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.PAPI_ВнешняяОбработка.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-		</Command>
-		<Command name="InformationRegister.PAPI_ЛогАлгоритмов.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="Catalog.PAPI_ШаблоныСообщений.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="InformationRegister.PAPI_ОтборыПолучателей.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="InformationRegister.PAPI_ОшибкиОбработкиПослеЗаписиВерсий.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 	</CommandsOrder>
 	<SubsystemsOrder>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_HTTP</Subsystem>
+		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы</Subsystem>
 		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных</Subsystem>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия</Subsystem>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_Шина</Subsystem>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ДополнительныеИнструменты</Subsystem>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_Алгоритмы</Subsystem>
 		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ОтложенныеОперации</Subsystem>
-		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_СервисыИнтеграции</Subsystem>
+		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_Инструменты</Subsystem>
 	</SubsystemsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>

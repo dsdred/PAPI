@@ -360,8 +360,13 @@
 							<ChildItems>
 								<InputField name="СписокОшибокЗначение" id="75">
 									<DataPath>СписокОшибок.Value</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
+									<DropListButton>false</DropListButton>
+									<ChoiceButton>false</ChoiceButton>
+									<ClearButton>false</ClearButton>
+									<SpinButton>false</SpinButton>
+									<CreateButton>false</CreateButton>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="СписокОшибокЗначениеКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="СписокОшибокЗначениеРасширеннаяПодсказка" id="77"/>
@@ -703,13 +708,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>За день</v8:content>
+					<v8:content>День</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>За день</v8:content>
+					<v8:content>Хранить в течении дня</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаДень</Action>

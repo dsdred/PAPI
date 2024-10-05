@@ -4,13 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_Шина</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.PAPI</name>
 		<right>
 			<name>View</name>
@@ -18,14 +11,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_ПодпискиНаСобытия</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_ПодпискиНаСобытия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.PAPI.Subsystem.PAPI_HTTP</name>
+		<name>Subsystem.PAPI.Subsystem.PAPI_ВычисляемыеПодсистемы.Subsystem.PAPI_Алгоритмы.Subsystem.PAPI_HTTP</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
