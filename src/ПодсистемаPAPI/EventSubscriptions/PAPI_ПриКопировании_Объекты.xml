@@ -21,7 +21,7 @@
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>OnCopy</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ПриКопировании_Объекты</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ПриКопировании_Объекты</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

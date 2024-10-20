@@ -14,7 +14,7 @@
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>Posting</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ОбработкаПроведения_Документы</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ОбработкаПроведения_Документы</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

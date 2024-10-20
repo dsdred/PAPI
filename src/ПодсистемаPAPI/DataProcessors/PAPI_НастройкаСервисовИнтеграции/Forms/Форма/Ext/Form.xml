@@ -198,7 +198,6 @@
 										</v8:item>
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПарольРасширеннаяПодсказка" id="43"/>

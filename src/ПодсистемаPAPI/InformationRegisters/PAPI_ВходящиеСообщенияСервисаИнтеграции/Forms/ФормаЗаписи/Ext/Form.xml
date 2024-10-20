@@ -14,7 +14,6 @@
 					<v8:content>Группа шапка</v8:content>
 				</v8:item>
 			</Title>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="51"/>
@@ -104,7 +103,6 @@
 									<v8:content>Группа даты</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДатыРасширеннаяПодсказка" id="43"/>

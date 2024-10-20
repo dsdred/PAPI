@@ -62,7 +62,6 @@
 									<v8:content>Группа действие выполнено</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДействиеВыполненоРасширеннаяПодсказка" id="23"/>

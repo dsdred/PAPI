@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -45,7 +44,6 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодНаименованиеРежимРасширеннаяПодсказка" id="14"/>
@@ -81,7 +79,6 @@
 									<v8:content>Путь</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПутьРежимРасширеннаяПодсказка" id="16"/>
@@ -254,26 +251,6 @@
 									<ContextMenu name="КомандыПодпискаКонтекстноеМеню" id="70"/>
 									<ExtendedTooltip name="КомандыПодпискаРасширеннаяПодсказка" id="71"/>
 								</PictureField>
-								<InputField name="КомандыТипПодписки" id="63">
-									<DataPath>Объект.Команды.ТипПодписки</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>15</MaxWidth>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="КомандыТипПодпискиКонтекстноеМеню" id="64"/>
-									<ExtendedTooltip name="КомандыТипПодпискиРасширеннаяПодсказка" id="65"/>
-								</InputField>
-								<InputField name="КомандыТипИсточника" id="66">
-									<DataPath>Объект.Команды.Источник</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>21</MaxWidth>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="КомандыТипИсточникаКонтекстноеМеню" id="67"/>
-									<ExtendedTooltip name="КомандыТипИсточникаРасширеннаяПодсказка" id="68"/>
-								</InputField>
 								<InputField name="КомандыИсполняемыйТип" id="54">
 									<DataPath>Объект.Команды.ИсполняемыйТип</DataPath>
 									<ReadOnly>true</ReadOnly>
@@ -291,6 +268,48 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="КомандыНаименованиеКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="КомандыНаименованиеРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="КомандыСобытие" id="86">
+									<DataPath>Объект.Команды.Событие</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>17</MaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыСобытиеКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="КомандыСобытиеРасширеннаяПодсказка" id="88"/>
+								</InputField>
+								<InputField name="КомандыИсточник" id="89">
+									<DataPath>Объект.Команды.Источник</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>11</MaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыИсточникКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="КомандыИсточникРасширеннаяПодсказка" id="91"/>
+								</InputField>
+								<InputField name="КомандыТипИсточника" id="66">
+									<DataPath>Объект.Команды.Источник</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>20</MaxWidth>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыТипИсточникаКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="КомандыТипИсточникаРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="КомандыТипПодписки" id="63">
+									<DataPath>Объект.Команды.ТипПодписки</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>17</MaxWidth>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыТипПодпискиКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="КомандыТипПодпискиРасширеннаяПодсказка" id="65"/>
 								</InputField>
 							</ChildItems>
 						</Table>

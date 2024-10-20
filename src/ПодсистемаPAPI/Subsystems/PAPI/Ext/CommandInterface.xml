@@ -11,6 +11,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.PAPI_ТекущаяВерсия.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsOrder>
 		<Command name="CommonCommand.PAPI_Настройки">
@@ -22,6 +27,7 @@
 		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ИсторияДанных</Subsystem>
 		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_ОтложенныеОперации</Subsystem>
 		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_Инструменты</Subsystem>
+		<Subsystem>Subsystem.PAPI.Subsystem.PAPI_КонсольКода</Subsystem>
 	</SubsystemsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>

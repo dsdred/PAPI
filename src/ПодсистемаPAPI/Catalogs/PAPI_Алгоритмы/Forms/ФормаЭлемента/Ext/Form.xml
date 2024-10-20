@@ -53,7 +53,6 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<HorizontalAlign>Right</HorizontalAlign>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодРасширеннаяПодсказка" id="68"/>
@@ -103,7 +102,6 @@
 									<v8:content>Группа наименование</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="14"/>
@@ -178,7 +176,6 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПараметрыИПроизвольныйКодРасширеннаяПодсказка" id="75"/>
@@ -287,6 +284,7 @@
 									<ExtendedTooltip name="ТекущийПроизвольныйКодРасширеннаяПодсказка" id="78"/>
 									<Events>
 										<Event name="OnChange">ТекущийПроизвольныйКодПриИзменении</Event>
+										<Event name="Opening">ТекущийПроизвольныйКодОткрытие</Event>
 									</Events>
 								</InputField>
 							</ChildItems>
@@ -310,7 +308,6 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаАлгоритмПараметрыРасширеннаяПодсказка" id="30"/>
@@ -323,7 +320,6 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКодАлгоритмОписаниеРасширеннаяПодсказка" id="51"/>
@@ -335,6 +331,7 @@
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<MultiLine>true</MultiLine>
 											<ExtendedEdit>true</ExtendedEdit>
+											<OpenButton>true</OpenButton>
 											<InputHint>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -343,6 +340,9 @@
 											</InputHint>
 											<ContextMenu name="КодАлгоритмаКонтекстноеМеню" id="27"/>
 											<ExtendedTooltip name="КодАлгоритмаРасширеннаяПодсказка" id="28"/>
+											<Events>
+												<Event name="Opening">КодАлгоритмаОткрытие</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
@@ -473,6 +473,17 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КонсольКодаДоступна" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Консоль кода доступна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

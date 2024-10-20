@@ -12,7 +12,6 @@
 					<v8:content>Дата и номер</v8:content>
 				</v8:item>
 			</Title>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДатаНомерРасширеннаяПодсказка" id="11"/>

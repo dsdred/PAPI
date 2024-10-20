@@ -22,7 +22,7 @@
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>OnWrite</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ПриЗаписи_Объекты</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ПриЗаписи_Объекты</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

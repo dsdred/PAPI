@@ -457,6 +457,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.PAPI_ИсполнителиПодписок</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.PAPI_ХранилищеРезультатов.Dimension.НомерЧасти</name>
 		<right>
 			<name>Edit</name>
@@ -534,6 +541,13 @@
 	</object>
 	<object>
 		<name>Constant.PAPI_Источник</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.PAPI_ТекущаяВерсия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

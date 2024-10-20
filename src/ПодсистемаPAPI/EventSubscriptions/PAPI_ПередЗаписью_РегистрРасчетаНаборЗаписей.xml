@@ -14,7 +14,7 @@
 				<v8:TypeSet>cfg:CalculationRegisterRecordSet</v8:TypeSet>
 			</Source>
 			<Event>BeforeWrite</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ПередЗаписью_РегистрРасчетаНаборЗаписей</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ПередЗаписью_РегистрРасчетаНаборЗаписей</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

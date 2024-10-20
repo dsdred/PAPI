@@ -14,7 +14,7 @@
 				<v8:TypeSet>cfg:InformationRegisterRecordSet</v8:TypeSet>
 			</Source>
 			<Event>GenerateFromDataHistoryVersionProcessing</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ОбработкаФормированияПоВерсииИсторииДанных_РегистрСведений</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ОбработкаФормированияПоВерсииИсторииДанных_РегистрСведений</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

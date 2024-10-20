@@ -41,6 +41,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_НастройкаХраненияДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Метаданные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.PAPI_УдалениеСтарыхДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.PAPI_ТекущаяВерсия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ФайловаяСистемаКлиентАсинх</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияГлобальный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияКлиент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
@@ -48,6 +52,7 @@
 			<Subsystem>PAPI_Инструменты</Subsystem>
 			<Subsystem>PAPI_ИсторияДанных</Subsystem>
 			<Subsystem>PAPI_ОтложенныеОперации</Subsystem>
+			<Subsystem>PAPI_КонсольКода</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

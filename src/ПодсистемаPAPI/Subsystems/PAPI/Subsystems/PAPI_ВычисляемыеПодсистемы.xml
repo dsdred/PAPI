@@ -30,6 +30,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_РаботаСВнешнимиОбработками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ТипВыполнения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PAPI_ВнешняяОбработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.PAPI_ТипПодпискиНаСобытие</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ПодпискиНаСобытия</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

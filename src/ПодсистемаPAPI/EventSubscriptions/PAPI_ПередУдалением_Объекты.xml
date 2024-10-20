@@ -21,7 +21,7 @@
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>BeforeDelete</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ПередУдалением_Объекты</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ПередУдалением_Объекты</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

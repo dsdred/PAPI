@@ -14,7 +14,7 @@
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>UndoPosting</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ОбработкаУдаленияПроведения_ДокументыОбработка</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ОбработкаУдаленияПроведения_ДокументыОбработка</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

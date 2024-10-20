@@ -21,7 +21,7 @@
 				<v8:Type>cfg:CatalogManager</v8:Type>
 			</Source>
 			<Event>AfterWriteDataHistoryVersionsProcessing</Event>
-			<Handler>CommonModule.PAPI_ПодпискиНаСобытияКлиентСервер.ОбработкаПослеЗаписиВерсийИсторииДанных</Handler>
+			<Handler>CommonModule.PAPI_ПодпискиНаСобытия.ОбработкаПослеЗаписиВерсийИсторииДанных</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>

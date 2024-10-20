@@ -618,6 +618,88 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаОбновление" id="110">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаОбновлениеРасширеннаяПодсказка" id="111"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаВерсииОбновленияИРасширения" id="115">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Версии обновления и расширения</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВерсииОбновленияИРасширенияРасширеннаяПодсказка" id="116"/>
+							<ChildItems>
+								<InputField name="ВерсияPAPI" id="117">
+									<DataPath>ВерсияPAPI</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ВерсияPAPIКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="ВерсияPAPIРасширеннаяПодсказка" id="119"/>
+								</InputField>
+								<InputField name="PAPI_ТекущаяВерсия" id="112">
+									<DataPath>НаборКонстант.PAPI_ТекущаяВерсия</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновлена до версии</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="PAPI_ТекущаяВерсияКонтекстноеМеню" id="113"/>
+									<ExtendedTooltip name="PAPI_ТекущаяВерсияРасширеннаяПодсказка" id="114"/>
+								</InputField>
+								<PictureDecoration name="ОбновлениеОк" id="120">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновлена</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Picture>
+										<xr:Ref>StdPicture.AppearanceCheckIcon</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="ОбновлениеОкКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ОбновлениеОкРасширеннаяПодсказка" id="122"/>
+								</PictureDecoration>
+								<PictureDecoration name="ОбновлениеНеОк" id="123">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Требуется обновление</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсистема нуждается в обновлении</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Picture>
+										<xr:Ref>StdPicture.AppearanceExclamationMarkIcon</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="ОбновлениеНеОкКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ОбновлениеНеОкРасширеннаяПодсказка" id="125"/>
+								</PictureDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -746,6 +828,21 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВерсияPAPI" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия PAPI</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

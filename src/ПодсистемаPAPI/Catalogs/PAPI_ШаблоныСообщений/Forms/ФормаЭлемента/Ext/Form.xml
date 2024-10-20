@@ -48,7 +48,6 @@
 									<v8:content>Код и код состояния</v8:content>
 								</v8:item>
 							</Title>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодИКодСостоянияРасширеннаяПодсказка" id="11"/>
