@@ -142,7 +142,7 @@
 		<Metadata name="CommonCommand.PAPI_Настройки" id="e01d5544-5e7c-4c01-9bc1-4e4a1d007e6c" configVersion="c5b4dc5de3a6d0b6e77a13a66d387a6c5a67dbfd"/>
 		<Metadata name="CommonCommand.PAPI_Настройки.CommandModule" id="e01d5544-5e7c-4c01-9bc1-4e4a1d007e6c.2" configVersion="0aa76b0ad8fd3d188aa7b97004b3b97254bcedf0"/>
 		<Metadata name="CommonForm.PAPI_Настройки" id="e43ff347-3c32-496d-96ba-1f68ddb1f486" configVersion="3cd3ae46a9cc24da6ceebf31352c2ffd76479226"/>
-		<Metadata name="CommonForm.PAPI_Настройки.Form" id="e43ff347-3c32-496d-96ba-1f68ddb1f486.0" configVersion="8d9b0be8f652b6dd5ea592f2e43390ce7a925334"/>
+		<Metadata name="CommonForm.PAPI_Настройки.Form" id="e43ff347-3c32-496d-96ba-1f68ddb1f486.0" configVersion="b5db50e18426fd2a5d9fd27146eb5ea94616bfe8"/>
 		<Metadata name="CommonModule.PAPI" id="c78af1c9-5854-46f2-9cbc-67bb0678f843" configVersion="47fa29ddb656f39cb9824df3c4137631ff930c9c"/>
 		<Metadata name="CommonModule.PAPI.Module" id="c78af1c9-5854-46f2-9cbc-67bb0678f843.0" configVersion="dd27152361f171dd5c8129608fd1a317df8304cf"/>
 		<Metadata name="CommonModule.PAPI_АсинхронныеОперации" id="22e9e2c6-9ddd-4a14-9a88-25bbc4e0f2e5" configVersion="4243f99efcf5c9ffb7a81be547ddce947b8f2464"/>
