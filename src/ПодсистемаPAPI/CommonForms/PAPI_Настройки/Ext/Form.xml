@@ -462,7 +462,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Срок хранения HTTP-сервисы</v8:content>
+									<v8:content>Срок хранения запросов HTTP-сервисов</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -547,7 +547,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа расписание удаления данных</v8:content>
+									<v8:content>Расписание удаления данных</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -658,6 +658,11 @@
 									<ContextMenu name="PAPI_ТекущаяВерсияКонтекстноеМеню" id="113"/>
 									<ExtendedTooltip name="PAPI_ТекущаяВерсияРасширеннаяПодсказка" id="114"/>
 								</InputField>
+								<Button name="ОбновитьPAPI" id="126">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОбновитьPAPI</CommandName>
+									<ExtendedTooltip name="ОбновитьPAPIРасширеннаяПодсказка" id="127"/>
+								</Button>
 								<PictureDecoration name="ОбновлениеОк" id="120">
 									<Title formatted="false">
 										<v8:item>
@@ -696,6 +701,95 @@
 									<ContextMenu name="ОбновлениеНеОкКонтекстноеМеню" id="124"/>
 									<ExtendedTooltip name="ОбновлениеНеОкРасширеннаяПодсказка" id="125"/>
 								</PictureDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<PictureDecoration name="ОбновлениеКартинка" id="149">
+							<Width>3</Width>
+							<Height>2</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление картинка</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>Proportionally</PictureSize>
+							<ImageScale>85</ImageScale>
+							<Picture>
+								<xr:Ref>CommonPicture.PAPI_Часы</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ОбновлениеКартинкаКонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="ОбновлениеКартинкаРасширеннаяПодсказка" id="151"/>
+						</PictureDecoration>
+						<UsualGroup name="ГруппаОшибкиОбновления" id="144">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибки обновления</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ошибки обновления</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаОшибкиОбновленияРасширеннаяПодсказка" id="145"/>
+							<ChildItems>
+								<Table name="СписокОшибокОбновления" id="128">
+									<Representation>List</Representation>
+									<Header>false</Header>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>СписокОшибокОбновления</DataPath>
+									<RowPictureDataPath>СписокОшибокОбновления.Picture</RowPictureDataPath>
+									<ContextMenu name="СписокОшибокОбновленияКонтекстноеМеню" id="129"/>
+									<AutoCommandBar name="СписокОшибокОбновленияКоманднаяПанель" id="130">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокОшибокОбновленияРасширеннаяПодсказка" id="131"/>
+									<SearchStringAddition name="СписокОшибокОбновленияСтрокаПоиска" id="132">
+										<AdditionSource>
+											<Item>СписокОшибокОбновления</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОшибокОбновленияСтрокаПоискаКонтекстноеМеню" id="133"/>
+										<ExtendedTooltip name="СписокОшибокОбновленияСтрокаПоискаРасширеннаяПодсказка" id="134"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокОшибокОбновленияСостояниеПросмотра" id="135">
+										<AdditionSource>
+											<Item>СписокОшибокОбновления</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОшибокОбновленияСостояниеПросмотраКонтекстноеМеню" id="136"/>
+										<ExtendedTooltip name="СписокОшибокОбновленияСостояниеПросмотраРасширеннаяПодсказка" id="137"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокОшибокОбновленияУправлениеПоиском" id="138">
+										<AdditionSource>
+											<Item>СписокОшибокОбновления</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОшибокОбновленияУправлениеПоискомКонтекстноеМеню" id="139"/>
+										<ExtendedTooltip name="СписокОшибокОбновленияУправлениеПоискомРасширеннаяПодсказка" id="140"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="СписокОшибокОбновленияЗначение" id="141">
+											<DataPath>СписокОшибокОбновления.Value</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<MultiLine>true</MultiLine>
+											<DropListButton>false</DropListButton>
+											<ChoiceButton>false</ChoiceButton>
+											<ClearButton>false</ClearButton>
+											<SpinButton>false</SpinButton>
+											<CreateButton>false</CreateButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ChooseType>false</ChooseType>
+											<ContextMenu name="СписокОшибокОбновленияЗначениеКонтекстноеМеню" id="142"/>
+											<ExtendedTooltip name="СписокОшибокОбновленияЗначениеРасширеннаяПодсказка" id="143"/>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -845,6 +939,55 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ОбновлениеЗапущено" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление запущено</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПериодПроверкиОбновления" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период проверки обновления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокОшибокОбновления" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список ошибок обновления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НужноОбновиться" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нужно обновиться</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="НастройкаСоставаИсторияДанных" id="1">
@@ -892,6 +1035,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ВыполнитьУдалениеДанных</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбновитьPAPI" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить подсистему PAPI</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьPAPI</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

@@ -45,6 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ФайловаяСистемаКлиентАсинх</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияГлобальный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI_Часы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

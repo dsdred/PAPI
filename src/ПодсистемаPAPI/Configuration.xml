@@ -37,7 +37,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема PAPI, редакция 0.9.3</v8:content>
+					<v8:content>Подсистема PAPI, редакция 0.9.3.1</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Pretty API – Подсистема интеграционных инструментов.</Comment>
@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_БазовыеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>Сидоренко Дмитрий Викторович</Vendor>
-			<Version>0.9.3</Version>
+			<Version>0.9.3.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -96,6 +96,7 @@
 			<CommonPicture>PAPI_Подписки</CommonPicture>
 			<CommonPicture>PAPI_ПробелыИТабуляция</CommonPicture>
 			<CommonPicture>PAPI_РежимСравнения</CommonPicture>
+			<CommonPicture>PAPI_Часы</CommonPicture>
 			<Role>PAPI_Администратор</Role>
 			<Role>PAPI_БазовыеПрава</Role>
 			<Role>PAPI_ПодсистемаPAPI</Role>
@@ -115,7 +116,6 @@
 			<CommonModule>PAPI_ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>PAPI_ОтложенныеОперации</CommonModule>
 			<CommonModule>PAPI_ПодпискиНаСобытия</CommonModule>
-			<CommonModule>PAPI_ПодпискиНаСобытияКлиентСерверУдалить</CommonModule>
 			<CommonModule>PAPI_РаботаСАлгоритмами</CommonModule>
 			<CommonModule>PAPI_РаботаСВнешнимиОбработками</CommonModule>
 			<CommonModule>PAPI_РаботаСВходящимиЗапросами</CommonModule>
@@ -145,8 +145,8 @@
 			<ScheduledJob>PAPI_ВыполнитьОбработкуОчередиДействийСДокументами</ScheduledJob>
 			<ScheduledJob>PAPI_ИсторияДанныхВыполнитьОбработкуПослеЗаписиВерсий</ScheduledJob>
 			<ScheduledJob>PAPI_ИсторияДанныхОбновитьИсторию</ScheduledJob>
-			<ScheduledJob>PAPI_СервисыИнтеграцииВыполнитьОбработку</ScheduledJob>
 			<ScheduledJob>PAPI_ИсторияДанныхУдалитьВерсии</ScheduledJob>
+			<ScheduledJob>PAPI_СервисыИнтеграцииВыполнитьОбработку</ScheduledJob>
 			<ScheduledJob>PAPI_УдалениеСтарыхДанных</ScheduledJob>
 			<FunctionalOption>PAPI_ОбменыСервисовИнтеграцииВключены</FunctionalOption>
 			<FunctionalOption>PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции</FunctionalOption>
@@ -155,8 +155,8 @@
 			<Constant>PAPI_Источник</Constant>
 			<Constant>PAPI_КоличествоПопытокОчередиДокументов</Constant>
 			<Constant>PAPI_ЛогированиеВходящихСообщенийСервисаИнтеграции</Constant>
-			<Constant>PAPI_ОбменыСервисовИнтеграцииВключены</Constant>
 			<Constant>PAPI_НастройкаХраненияДанных</Constant>
+			<Constant>PAPI_ОбменыСервисовИнтеграцииВключены</Constant>
 			<Constant>PAPI_ТекущаяВерсия</Constant>
 			<CommonForm>PAPI_Настройки</CommonForm>
 			<Catalog>PAPI_Алгоритмы</Catalog>
@@ -170,29 +170,29 @@
 			<Catalog>PAPI_ШаблоныСообщений</Catalog>
 			<Document>PAPI_ВходящийЗапрос</Document>
 			<Enum>PAPI_ДействиеСДокументом</Enum>
+			<Enum>PAPI_СрокиХранения</Enum>
 			<Enum>PAPI_ТелоЗапроса</Enum>
 			<Enum>PAPI_ТелоОтвета</Enum>
 			<Enum>PAPI_ТипВыполнения</Enum>
 			<Enum>PAPI_ТипЛога</Enum>
 			<Enum>PAPI_ТипПодпискиНаСобытие</Enum>
-			<Enum>PAPI_СрокиХранения</Enum>
 			<DataProcessor>PAPI_КонсольКода</DataProcessor>
 			<DataProcessor>PAPI_НастройкаСервисовИнтеграции</DataProcessor>
 			<DataProcessor>PAPI_НастройкаСоставаИсторииДанных</DataProcessor>
+			<DataProcessor>PAPI_ОтладкаВходящегоЗапроса</DataProcessor>
 			<DataProcessor>PAPI_ОтправкаСообщенияСервисовИнтеграции</DataProcessor>
 			<DataProcessor>PAPI_СообщенияСервисовИнтеграции</DataProcessor>
-			<DataProcessor>PAPI_ОтладкаВходящегоЗапроса</DataProcessor>
 			<InformationRegister>PAPI_ВходящиеСообщенияСервисаИнтеграции</InformationRegister>
 			<InformationRegister>PAPI_ЗапросНедостающихДанных</InformationRegister>
 			<InformationRegister>PAPI_ИсполнителиПодписок</InformationRegister>
 			<InformationRegister>PAPI_ЛогАлгоритмов</InformationRegister>
 			<InformationRegister>PAPI_ЛогМетодов</InformationRegister>
+			<InformationRegister>PAPI_НастройкиХраненияИстории</InformationRegister>
 			<InformationRegister>PAPI_ОтборыПолучателей</InformationRegister>
 			<InformationRegister>PAPI_ОчередьАлгоритмовДляФоновогоВыполнения</InformationRegister>
 			<InformationRegister>PAPI_ОчередьДействийСДокументами</InformationRegister>
-			<InformationRegister>PAPI_ХранилищеРезультатов</InformationRegister>
 			<InformationRegister>PAPI_ОшибкиОбработкиПослеЗаписиВерсий</InformationRegister>
-			<InformationRegister>PAPI_НастройкиХраненияИстории</InformationRegister>
+			<InformationRegister>PAPI_ХранилищеРезультатов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
