@@ -1,4 +1,4 @@
-[Домой](/README.md)
+[Домой](..)
 
 <details>
 <summary>
