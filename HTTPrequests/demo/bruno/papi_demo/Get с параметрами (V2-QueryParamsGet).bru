@@ -1,0 +1,20 @@
+meta {
+  name: Get с параметрами (V2/QueryParamsGet)
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{host}}{{base}}/hs/papi/v2/QueryParamsGet?Dog=Барбос&Cat=Васька
+  body: none
+  auth: inherit
+}
+
+params:query {
+  Dog: Барбос
+  Cat: Васька
+}
+
+settings {
+  encodeUrl: true
+}

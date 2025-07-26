@@ -1,0 +1,21 @@
+meta {
+  name: Get и Post Получить список стран из СКД в XLSX (Файл)
+  type: http
+  seq: 14
+}
+
+post {
+  url: {{host}}{{base}}/hs/papi/v3/GetListCountriesXLSX
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "CountryCode": ["643", "642"]
+  }
+}
+
+settings {
+  encodeUrl: true
+}

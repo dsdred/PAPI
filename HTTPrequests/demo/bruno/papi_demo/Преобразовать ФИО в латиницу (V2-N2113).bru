@@ -1,0 +1,21 @@
+meta {
+  name: Преобразовать ФИО в латиницу (V2/N2113)
+  type: http
+  seq: 10
+}
+
+post {
+  url: {{host}}{{base}}/hs/papi/v2/N2113
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "FIO": "Петров Петр Пертович"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

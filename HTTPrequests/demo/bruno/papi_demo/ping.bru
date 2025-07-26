@@ -1,0 +1,15 @@
+meta {
+  name: ping
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{host}}{{base}}/hs/papi/v1/ping/
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

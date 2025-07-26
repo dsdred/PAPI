@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "papi_demo",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

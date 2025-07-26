@@ -1,0 +1,22 @@
+meta {
+  name: Get и Post с параметрами (V2/MethodWithParameters)
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{host}}{{base}}/hs/papi/v2/MethodWithParameters
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "Dog": "Барбос",
+    "Cat": "Муська"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

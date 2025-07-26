@@ -1,0 +1,21 @@
+meta {
+  name: Get и Post с прерыванием goto (V1/Get и Post с Goto)
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{host}}{{base}}/hs/papi/v1/MethodWithGoto
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "Dog": "Барбос"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
