@@ -1,45 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<Constant uuid="7a919529-2df0-4cdb-9c91-1a06ba813488">
+	<Constant uuid="04e5cbdb-6284-4577-baf8-6291904f50de">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.PAPI_НастройкаХраненияДанных" category="Manager">
-				<xr:TypeId>54640f32-f4b8-4c38-a4e4-9c230334167a</xr:TypeId>
-				<xr:ValueId>90548640-db56-4737-8409-14aa95bd6e81</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.PAPI_ВыполнитьОбработкуПослеЗаписиВерсий" category="Manager">
+				<xr:TypeId>b6c677dc-da3c-44b1-a36a-00f8bed1525d</xr:TypeId>
+				<xr:ValueId>dc9011fb-9de4-4ce8-9a03-b2ab70f7cf01</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.PAPI_НастройкаХраненияДанных" category="ValueManager">
-				<xr:TypeId>7a7504a8-ad2a-4623-9900-d74b20300b33</xr:TypeId>
-				<xr:ValueId>2a851993-d651-4fcf-a643-782edf5e9267</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.PAPI_ВыполнитьОбработкуПослеЗаписиВерсий" category="ValueManager">
+				<xr:TypeId>8607736d-157a-4200-82dd-077185db2d38</xr:TypeId>
+				<xr:ValueId>74409754-ac27-4d61-9044-e7cdc8036495</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.PAPI_НастройкаХраненияДанных" category="ValueKey">
-				<xr:TypeId>828c5d61-4113-4e5b-aa4b-043ad87d265f</xr:TypeId>
-				<xr:ValueId>9102ca82-bc83-4266-b89c-b779c21e8c79</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.PAPI_ВыполнитьОбработкуПослеЗаписиВерсий" category="ValueKey">
+				<xr:TypeId>6ce7eca8-9c72-459e-ac9b-2c76847aaf1b</xr:TypeId>
+				<xr:ValueId>82478c30-1d95-4609-ae48-41ac435e439b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>PAPI_НастройкаХраненияДанных</Name>
+			<Name>PAPI_ВыполнитьОбработкуПослеЗаписиВерсий</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>PAPI: Настройка хранения данных</v8:content>
+					<v8:content>PAPI: Выполнить обработку после записи версий</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>v8:ValueStorage</v8:Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<ExtendedPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройка хранения данных</v8:content>
+					<v8:content>Выполнить обработку после записи версий</v8:content>
 				</v8:item>
 			</ExtendedPresentation>
 			<Explanation/>
 			<PasswordMode>false</PasswordMode>
 			<Format/>
 			<EditFormat/>
-			<ToolTip/>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если Истина - после выполнения обновления истории выполнется обработка после записи версий истории данных.</v8:content>
+				</v8:item>
+			</ToolTip>
 			<MarkNegatives>false</MarkNegatives>
 			<Mask/>
 			<MultiLine>false</MultiLine>

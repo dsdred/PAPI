@@ -44,6 +44,7 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодНаименованиеРежимРасширеннаяПодсказка" id="14"/>
@@ -79,6 +80,7 @@
 									<v8:content>Путь</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПутьРежимРасширеннаяПодсказка" id="16"/>

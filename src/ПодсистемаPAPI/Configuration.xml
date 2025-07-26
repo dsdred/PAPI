@@ -37,7 +37,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема PAPI, редакция 0.9.3.3</v8:content>
+					<v8:content>Подсистема PAPI, редакция 0.9.3.4</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Pretty API – Подсистема интеграционных инструментов.</Comment>
@@ -51,10 +51,10 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_БазовыеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_МинимальныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>Сидоренко Дмитрий Викторович</Vendor>
-			<Version>0.9.3.3</Version>
+			<Version>0.9.3.4</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -98,7 +98,7 @@
 			<CommonPicture>PAPI_РежимСравнения</CommonPicture>
 			<CommonPicture>PAPI_Часы</CommonPicture>
 			<Role>PAPI_Администратор</Role>
-			<Role>PAPI_БазовыеПрава</Role>
+			<Role>PAPI_МинимальныеПрава</Role>
 			<Role>PAPI_ПодсистемаPAPI</Role>
 			<Role>PAPI_Оператор</Role>
 			<CommonModule>PAPI</CommonModule>
@@ -158,6 +158,8 @@
 			<Constant>PAPI_НастройкаХраненияДанных</Constant>
 			<Constant>PAPI_ОбменыСервисовИнтеграцииВключены</Constant>
 			<Constant>PAPI_ТекущаяВерсия</Constant>
+			<Constant>PAPI_ВыполнитьОбработкуПослеЗаписиВерсий</Constant>
+			<Constant>PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий</Constant>
 			<CommonForm>PAPI_Настройки</CommonForm>
 			<Catalog>PAPI_Алгоритмы</Catalog>
 			<Catalog>PAPI_ВнешняяОбработка</Catalog>

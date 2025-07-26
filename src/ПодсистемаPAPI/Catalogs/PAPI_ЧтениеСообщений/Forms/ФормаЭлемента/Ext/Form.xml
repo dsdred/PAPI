@@ -39,6 +39,7 @@
 									<v8:content>Группа код родитель разрешение</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодРодительРазрешениеРасширеннаяПодсказка" id="33"/>
@@ -121,6 +122,7 @@
 									<v8:content>Группа выч фон</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВычФонРасширеннаяПодсказка" id="39"/>

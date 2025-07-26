@@ -26,7 +26,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.PAPI</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_Администратор</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_БазовыеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_МинимальныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_ПодсистемаPAPI</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_ОбщегоНазначенияВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PAPI_Логирование</xr:Item>

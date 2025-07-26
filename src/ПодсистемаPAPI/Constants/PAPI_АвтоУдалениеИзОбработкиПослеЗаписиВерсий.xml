@@ -1,45 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<Constant uuid="7a919529-2df0-4cdb-9c91-1a06ba813488">
+	<Constant uuid="cdccb208-7290-4d05-a7df-daf19de0c604">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.PAPI_НастройкаХраненияДанных" category="Manager">
-				<xr:TypeId>54640f32-f4b8-4c38-a4e4-9c230334167a</xr:TypeId>
-				<xr:ValueId>90548640-db56-4737-8409-14aa95bd6e81</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий" category="Manager">
+				<xr:TypeId>4f7bc0ce-a926-484a-a801-794732dd4e39</xr:TypeId>
+				<xr:ValueId>279b1f6d-c684-4d02-a97e-1e42f5ee69ca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.PAPI_НастройкаХраненияДанных" category="ValueManager">
-				<xr:TypeId>7a7504a8-ad2a-4623-9900-d74b20300b33</xr:TypeId>
-				<xr:ValueId>2a851993-d651-4fcf-a643-782edf5e9267</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий" category="ValueManager">
+				<xr:TypeId>818a2ebe-17b2-4173-b18b-f247ffd603d3</xr:TypeId>
+				<xr:ValueId>ab17d4d7-c294-414e-8c6b-074d69273d8d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.PAPI_НастройкаХраненияДанных" category="ValueKey">
-				<xr:TypeId>828c5d61-4113-4e5b-aa4b-043ad87d265f</xr:TypeId>
-				<xr:ValueId>9102ca82-bc83-4266-b89c-b779c21e8c79</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий" category="ValueKey">
+				<xr:TypeId>3bcfa57b-1d18-40d5-b449-6781ede17a59</xr:TypeId>
+				<xr:ValueId>6e3aa8d4-f046-41e5-957b-94c0958be683</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>PAPI_НастройкаХраненияДанных</Name>
+			<Name>PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>PAPI: Настройка хранения данных</v8:content>
+					<v8:content>PAPI: Авто удаление из обработки после записи версий</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>v8:ValueStorage</v8:Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<ExtendedPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройка хранения данных</v8:content>
+					<v8:content>Авто удаление из обработки после записи версий</v8:content>
 				</v8:item>
 			</ExtendedPresentation>
 			<Explanation/>
 			<PasswordMode>false</PasswordMode>
 			<Format/>
 			<EditFormat/>
-			<ToolTip/>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если параметр имеет значение Истина, то после выполнения обновления истории и обработки после записи версий истории данных выполняется удаление из обработки после записи версий, дата создания которых меньше текущей на 20 дней.</v8:content>
+				</v8:item>
+			</ToolTip>
 			<MarkNegatives>false</MarkNegatives>
 			<Mask/>
 			<MultiLine>false</MultiLine>

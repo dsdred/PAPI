@@ -11,6 +11,16 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.PAPI_АвтоУдалениеИзОбработкиПослеЗаписиВерсий.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.PAPI_ВыполнитьОбработкуПослеЗаписиВерсий.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="DataProcessor.PAPI_НастройкаСоставаИсторииДанных.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>

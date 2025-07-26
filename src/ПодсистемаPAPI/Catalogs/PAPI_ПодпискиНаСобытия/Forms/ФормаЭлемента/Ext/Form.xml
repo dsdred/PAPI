@@ -35,6 +35,7 @@
 									<v8:content>Группа код родитель разрешение</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодРодительРазрешениеРасширеннаяПодсказка" id="40"/>
@@ -63,6 +64,7 @@
 									<v8:content>Группа наименование приоритет</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНаименованиеПриоритетРасширеннаяПодсказка" id="47"/>
@@ -161,6 +163,7 @@
 										</v8:item>
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ThroughAlign>Use</ThroughAlign>
@@ -251,6 +254,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВнешняяОбработкаРасширеннаяПодсказка" id="76"/>
@@ -263,6 +267,7 @@
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОбработкаДекорацияРасширеннаяПодсказка" id="83"/>

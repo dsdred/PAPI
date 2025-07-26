@@ -14,6 +14,7 @@
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
@@ -80,14 +81,15 @@
 			<ChildItems>
 				<LabelField name="Код" id="19">
 					<DataPath>Список.Code</DataPath>
-					<Width>2</Width>
+					<Width>6</Width>
 					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Наименование" id="16">
 					<DataPath>Список.Description</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
@@ -105,16 +107,110 @@
 				</LabelField>
 				<LabelField name="ИмяМетода" id="25">
 					<DataPath>Список.ИмяМетода</DataPath>
-					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="ИмяМетодаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ИмяМетодаРасширеннаяПодсказка" id="27"/>
 				</LabelField>
-				<CheckBoxField name="Разрешен" id="28">
-					<DataPath>Список.Разрешен</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="РазрешенКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="РазрешенРасширеннаяПодсказка" id="30"/>
-				</CheckBoxField>
+				<LabelField name="Комментарий" id="43">
+					<DataPath>Список.Комментарий</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<ColumnGroup name="ГруппаСостояния" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа состояния</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа состояния</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="ГруппаСостоянияРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<CheckBoxField name="Разрешен" id="28">
+							<DataPath>Список.Разрешен</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Разрешен</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.AppearanceCheckBox</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РазрешенКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="РазрешенРасширеннаяПодсказка" id="30"/>
+						</CheckBoxField>
+						<CheckBoxField name="Привилегированный" id="34">
+							<DataPath>Список.Привилегированный</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Привилегированный режим</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.AppearanceExclamationMark</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПривилегированныйКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ПривилегированныйРасширеннаяПодсказка" id="36"/>
+						</CheckBoxField>
+						<CheckBoxField name="ПроизвольныйАлгоритм" id="48">
+							<DataPath>Список.ПроизвольныйАлгоритм</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Произвольный алгоритм</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПроизвольныйАлгоритмКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="ПроизвольныйАлгоритмРасширеннаяПодсказка" id="50"/>
+						</CheckBoxField>
+						<CheckBoxField name="ЛогироватьМетод" id="40">
+							<DataPath>Список.ЛогироватьМетод</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.EventLog</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЛогироватьМетодКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ЛогироватьМетодРасширеннаяПодсказка" id="42"/>
+						</CheckBoxField>
+						<CheckBoxField name="ЛогироватьЗапрос" id="37">
+							<DataPath>Список.ЛогироватьЗапрос</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.Document</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЛогироватьЗапросКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ЛогироватьЗапросРасширеннаяПодсказка" id="39"/>
+						</CheckBoxField>
+					</ChildItems>
+				</ColumnGroup>
 				<LabelField name="Ссылка" id="31">
 					<DataPath>Список.Ref</DataPath>
 					<UserVisible>
