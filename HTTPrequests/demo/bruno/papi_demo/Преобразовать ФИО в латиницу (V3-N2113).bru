@@ -5,9 +5,13 @@ meta {
 }
 
 post {
-  url: {{host}}{{base}}/hs/papi/v3/N2113
+  url: {{host}}/{{base}}/hs/papi/v3/N2113
   body: json
   auth: inherit
+}
+
+headers {
+  ~Content-Type: application/json
 }
 
 body:json {
@@ -18,4 +22,5 @@ body:json {
 
 settings {
   encodeUrl: true
+  timeout: 0
 }

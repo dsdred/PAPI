@@ -5,11 +5,17 @@ meta {
 }
 
 get {
-  url: {{host}}{{base}}/hs/papi/v1/ping/
+  url: {{host}}/{{base}}/hs/papi/v1/ping/
   body: none
   auth: inherit
 }
 
+vars:pre-request {
+  host: localhost
+  base: papi_demo
+}
+
 settings {
   encodeUrl: true
+  timeout: 0
 }

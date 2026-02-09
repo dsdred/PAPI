@@ -5,7 +5,7 @@ meta {
 }
 
 get {
-  url: {{host}}{{base}}/hs/papi/v2/QueryParamsGet?Dog=Барбос&Cat=Васька
+  url: {{host}}/{{base}}/hs/papi/v2/QueryParamsGet?Dog=Барбос&Cat=Васька
   body: none
   auth: inherit
 }
@@ -17,4 +17,5 @@ params:query {
 
 settings {
   encodeUrl: true
+  timeout: 0
 }

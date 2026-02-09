@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: {{host}}{{base}}/hs/papi/v1/MethodWithParameters
+  url: {{host}}/{{base}}/hs/papi/v1/MethodWithParameters
   body: json
   auth: inherit
 }
@@ -19,4 +19,5 @@ body:json {
 
 settings {
   encodeUrl: true
+  timeout: 0
 }

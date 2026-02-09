@@ -1,0 +1,15 @@
+meta {
+  name: MCP health
+  type: http
+  seq: 14
+}
+
+get {
+  url: {{host}}/{{base}}/hs/papi/mcp/health
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
