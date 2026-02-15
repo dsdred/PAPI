@@ -2,7 +2,7 @@
 
 //MIT License
 
-//Copyright (c) 2024 Dmitrii Sidorenko
+//Copyright (c) 2024-2026 Dmitrii Sidorenko
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -61,7 +61,7 @@
 
 #Область Логирование
 
-// Процедура - Запись в журнал регистрации
+// Запись в журнал регистрации
 //
 // Параметры:
 //	ИмяСобытия 		- Строка - Пример: "PAPI.Методы.Логирование"

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Configuration uuid="ec7c6be7-4920-42d3-8618-f3ecb14699c6">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -30,6 +30,18 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>b21b156d-b98b-435c-8104-b4c9dd7ac721</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>CommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>MainSectionCommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -37,7 +49,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема PAPI, редакция 0.9.3.4</v8:content>
+					<v8:content>Подсистема PAPI, редакция 0.9.4.0</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Pretty API – Подсистема интеграционных инструментов.</Comment>
@@ -54,7 +66,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PAPI_МинимальныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>Сидоренко Дмитрий Викторович</Vendor>
-			<Version>0.9.3.4</Version>
+			<Version>0.9.4.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -184,6 +196,7 @@
 			<DataProcessor>PAPI_ОтладкаВходящегоЗапроса</DataProcessor>
 			<DataProcessor>PAPI_ОтправкаСообщенияСервисовИнтеграции</DataProcessor>
 			<DataProcessor>PAPI_СообщенияСервисовИнтеграции</DataProcessor>
+			<DataProcessor>PAPI_WebSocketСоединения</DataProcessor>
 			<InformationRegister>PAPI_ВходящиеСообщенияСервисаИнтеграции</InformationRegister>
 			<InformationRegister>PAPI_ЗапросНедостающихДанных</InformationRegister>
 			<InformationRegister>PAPI_ИсполнителиПодписок</InformationRegister>

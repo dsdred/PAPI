@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -45,7 +45,6 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодНаименованиеВерсияРасширеннаяПодсказка" id="91"/>
@@ -60,6 +59,8 @@
 								<InputField name="Наименование" id="4">
 									<DataPath>Объект.Description</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 								</InputField>
@@ -92,7 +93,6 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<HorizontalAlign>Right</HorizontalAlign>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРазрешенРасширеннаяПодсказка" id="209"/>
@@ -119,7 +119,6 @@
 								</v8:item>
 							</Title>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДопПараметрыРасширеннаяПодсказка" id="220"/>
@@ -349,7 +348,6 @@
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПараметрыРасширеннаяПодсказка" id="201"/>
 											<ChildItems>
@@ -453,7 +451,6 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПараметрыПроизвольныйКодРасширеннаяПодсказка" id="156"/>
 											<ChildItems>
@@ -513,7 +510,6 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаАлгоритмРасширеннаяПодсказка" id="125"/>

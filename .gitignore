@@ -1,1 +1,7 @@
+# Артефакты проекта
 assembly
+release
+demo
+
+#Артефакты Amazon Q
+.amazonq

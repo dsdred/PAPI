@@ -2,7 +2,7 @@
 
 //MIT License
 
-//Copyright (c) 2024 Dmitrii Sidorenko
+//Copyright (c) 2024-2026 Dmitrii Sidorenko
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -1227,7 +1227,7 @@
 	
 КонецФункции
 
-// Функция - Найти фоновое задание по фильтр отбора
+// Найти фоновое задание по фильтр отбора
 //
 // Параметры:
 //  ФильтрОтбора	 - 	 - 
