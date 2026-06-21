@@ -29,6 +29,7 @@
 									<v8:content>Группа основная горизонталь</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОсновнаяГоризонтальРасширеннаяПодсказка" id="14"/>

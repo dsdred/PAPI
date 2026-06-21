@@ -35,6 +35,7 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКомандыСпискаРасширеннаяПодсказка" id="230"/>
@@ -69,6 +70,7 @@
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
 									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаАвтообновленияРасширеннаяПодсказка" id="232"/>
@@ -286,6 +288,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтборИдентификаторРасширеннаяПодсказка" id="195"/>
@@ -318,6 +321,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтборИдентификаторСообщенияЗапросаРасширеннаяПодсказка" id="200"/>
@@ -350,6 +354,7 @@
 										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаДатаОтправкиРасширеннаяПодсказка" id="49"/>
@@ -393,6 +398,7 @@
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаДатаУстареванияРасширеннаяПодсказка" id="71"/>
@@ -428,6 +434,7 @@
 											<v8:content>Отбор по отправителям</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтборОтправителяРасширеннаяПодсказка" id="211"/>
@@ -459,6 +466,7 @@
 											<v8:content>Отбор по получателю</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтборПолучателяРасширеннаяПодсказка" id="216"/>
@@ -492,6 +500,7 @@
 									<v8:content>Отбор по параметрам</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборПараметрыСообщенияРасширеннаяПодсказка" id="221"/>
@@ -591,6 +600,7 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="159"/>
